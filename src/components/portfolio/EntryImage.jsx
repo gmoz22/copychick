@@ -46,8 +46,8 @@ PortfolioEntryImg.defaultProps = {
     imgStyle: "",
     image: {},
     url: "#",
-    client: "#",
-    work: "#",
+    client: "",
+    work: "",
 };
 
 export default PortfolioEntryImg;

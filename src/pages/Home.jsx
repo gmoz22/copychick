@@ -1,23 +1,52 @@
-import * as React from "react";
-import Header from "../components/Header";
+import React, { useState } from 'react';
 import ReactPageScroller from "react-page-scroller";
+import Header from "../components/Header";
+import Pager from "../components/Pager";
 
 import ImgIDoCopy from "../img/home/i-do-copy.png";
 import ImgSecretSauceActionableLanguage from "../img/home/secret-sauce_actionable-language.jpg";
 import ImgSecretSauceBrandPositioning from "../img/home/secret-sauce_brand-positioning.jpg";
 import ImgSecretSauceCoffee from "../img/home/secret-sauce_coffee.jpg";
 import ImgSecretSauceDeepResearch from "../img/home/secret-sauce_deep-research.jpg";
-import ImgCopychickPerks from "../img/home/copychick-perks.jpg";
-import ImgDiyHurts from "../img/home/diy-hurts.jpg";
-import Footer from "../components/Footer";
-
-// scroll page tracker: https://github.com/VikLiegostaiev/react-page-scroller/blob/master/demo/src/FullPage.js
 
 function HomePage() {
+
+    const [pageNumber, setPageNumber] = useState(0);
+    const pagerConfig = {
+        1: "Welcome",
+        2: "I'm Jen",
+        3: "Results",
+        4: "Pro Writer",
+        5: "I Do...",
+        6: "Copy",
+        7: "Secret Sauce",
+        8: "Delegate",
+        9: "Book!"
+    }
+
+    const handlePageChange = number => {
+        setPageNumber(number);
+    };
+
+    const getPagesNumbers = () => {
+        const pageNumbers = [];
+        for (let i in pagerConfig) {
+            pageNumbers.push(
+                <Pager.Item key={i} number={i} label={pagerConfig[i]} active={i == pageNumber+1} onClick={handlePageChange} />,
+            );
+        }
+        return [...pageNumbers];
+    };
+
+    const pagesNumbers = getPagesNumbers();
+
     return (
         <div className="main">
             <Header transparent />
-            <ReactPageScroller>
+            <Pager className="fixed top-center right-0 z-50">
+                {pagesNumbers}
+            </Pager>
+            <ReactPageScroller pageOnChange={handlePageChange} customPageNumber={pageNumber}>
 
                 <div className="h-screen w-screen md:flex inline-block">
                     <div className="h-screen w-full hidden md:block md:w-1/2 pt-28 bg-cover bg-home-splash-copy-brand-strategy bg-center"> &nbsp; </div>
