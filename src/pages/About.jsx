@@ -1,0 +1,20 @@
+import * as React from "react";
+import Header from "../components/Header";
+import Title from "../components/Title";
+import Body from "../components/Body";
+import Footer from "../components/Footer";
+
+function AboutPage() {
+    return (
+        <div>
+            <Header/>
+            <Title title="About" />
+            <Body>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A beatae dicta esse qui similique! Dignissimos est exercitationem expedita laborum nobis sapiente, voluptate voluptates! A aliquid, aperiam, blanditiis cumque enim esse facere illum labore libero, minima neque nostrum odit omnis perspiciatis placeat quae qui sapiente similique tempora voluptates? Accusantium, ipsam mollitia porro quos sapiente voluptas voluptatum. Adipisci dicta distinctio facilis ipsam quia quos soluta. Accusantium, aliquam aut corporis culpa cupiditate delectus dolorum, eligendi error et explicabo facilis fugiat fugit hic id impedit incidunt iusto laboriosam magnam nihil obcaecati, qui voluptatem voluptatum. A ab, aperiam asperiores, atque consectetur deleniti deserunt distinctio, dolorem eligendi laborum magnam neque nihil pariatur quasi soluta tenetur vel vero voluptate. Eos et illum, ipsam magnam sint veniam voluptas? Adipisci delectus dolores dolorum eligendi harum in ipsum quas repellendus. Accusantium alias amet consequuntur cupiditate dolores eos esse iure maiores minus neque nobis, nulla obcaecati placeat provident quasi quibusdam quo ratione recusandae rem sed sequi sunt tempora voluptate. Doloribus, totam, voluptatum? Dolorem iste laboriosam odit provident soluta. A beatae consequatur distinctio facilis iste laudantium magnam molestiae natus necessitatibus nobis officiis praesentium quas quia quo quod quos, recusandae rem, sapiente sint soluta totam, vitae voluptatibus! Ad aut debitis doloribus dolorum incidunt saepe ullam, veritatis. Ab atque blanditiis culpa debitis dolore enim illum impedit, inventore non quas sint veniam voluptatum. Asperiores cum debitis magnam quia vitae. Ad amet animi beatae consequuntur, cumque enim error eum minima molestias natus nihil nostrum odio perferendis quo, sunt tempora tenetur vitae. A, accusantium, nostrum. Adipisci amet, asperiores aut commodi consectetur culpa deleniti deserunt dolor dolorem dolores ea et eveniet ex fugiat illo impedit iusto laboriosam libero magni maiores minima mollitia nihil quae quis similique voluptate voluptatibus! Ab aut, distinctio eaque enim impedit labore magni natus nesciunt nostrum obcaecati omnis optio perspiciatis quam quis vitae. Adipisci beatae consequatur ducimus fugiat illo inventore maiores quibusdam repellat tenetur. Atque aut ea, eius laborum nulla odio soluta? Animi deserunt distinctio dolorum eaque excepturi fuga, maiores molestiae nesciunt nostrum voluptatum. Dicta distinctio doloribus expedita iste mollitia provident quisquam voluptatem! Accusantium animi aspernatur distinctio doloribus est ipsa libero omnis quasi quia, quisquam recusandae sequi sunt vel velit voluptatem! Adipisci aperiam at aut cumque cupiditate earum est id ipsa iste, iusto minima minus nam neque nulla odio omnis porro quae quia rem sint vel velit vero voluptatum. Beatae illum impedit laudantium molestiae neque perspiciatis sint! Animi doloribus ea excepturi ipsam itaque magnam modi, molestiae molestias mollitia neque officia quam reprehenderit, sint tenetur vitae. Accusamus amet assumenda cumque distinctio, doloribus dolorum ea, eos fugit id illum impedit labore laboriosam magni nam necessitatibus nihil nisi non officia quo quod sed suscipit tenetur ut. Aliquam odio possimus reprehenderit similique! Animi assumenda blanditiis corporis earum, et expedita maiores modi mollitia nisi officia omnis, pariatur quibusdam quod soluta sunt totam vel voluptatem. Animi eveniet nihil pariatur sequi veniam. Accusamus ad cum distinctio ducimus eligendi eos error, esse eum impedit laborum modi molestias obcaecati optio quasi recusandae sapiente sed, similique sunt. Dolorem laboriosam placeat tenetur. Ea error mollitia repellendus!
+            </Body>
+            <Footer />
+        </div>
+    );
+}
+
+export default AboutPage;
