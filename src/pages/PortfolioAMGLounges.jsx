@@ -4,25 +4,26 @@ import PortfolioHeader from "../components/portfolio/Header";
 import PortfolioWrapper from "../components/portfolio/Wrapper";
 import PortfolioTitle from "../components/portfolio/Title";
 import PortfolioBody from "../components/portfolio/Body";
-import PortfolioTagline from "../components/portfolio/Tagline";
 import Footer from "../components/Footer";
+import iHeader from "../img/portfolio/amg-lounges-header.png";
 
 function PortfolioAMGLoungesPage() {
     return (
         <div>
             <Header />
-            <PortfolioHeader title="AMG Lounges" />
             <PortfolioWrapper>
-                <div>
-                    <img className="w-full" src="https://images.placeholders.dev/?width=1280&height=400&text=AMG%20Lounges&bgColor=%23f7f6f6&textColor=%236d6e71" />
-                </div>
-                <br/>
-                <br/>
-                <PortfolioTitle title="AMG Lounges" />
-                <PortfolioBody type="Social Campaigns" industry="Automobile Club">
-                    <PortfolioTagline title="The premier community for Mercedes-AMG owners." />
+                <PortfolioHeader image={iHeader}>
+                    <PortfolioTitle title="Creative Objective" />
+                    Create social media campaigns for special events, as well as weekly social copy and content, for the Southern and Northern California branches (SoCal and Norcal) of AMG Lounges, the nation’s premier automobile club for Mercedes-Benz AMG enthusiasts.
                     <br/>
-                    <h3>Overview</h3>
+                    <br/>
+                    <PortfolioTitle title="Deliverables" />
+                    Dynamic Social Media Campaign for the 5th Annual AMG Lounges SoCal x Norcal Meet; Weekly Social Media Content Management for Instagram + Facebook.
+                </PortfolioHeader>
+                <PortfolioBody>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium assumenda blanditiis consequatur deleniti deserunt, eligendi eum facilis fuga fugiat hic illo in nostrum quam quia reiciendis totam unde veniam vitae?
+                </PortfolioBody>
+                    {/*<h3>Overview</h3>
                     <div>
                         AMG Lounges is a national network of local car communities for Mercedes-Benz AMG enthusiasts. The AMG SoCal Lounge is the first and most active of these communities, launched in Los Angeles in 2014.
                     </div>
@@ -35,8 +36,7 @@ function PortfolioAMGLoungesPage() {
                     <h3>Solution</h3>
                     <p>
                         As of February 2022, I’m...
-                    </p>
-                </PortfolioBody>
+                    </p>*/}
             </PortfolioWrapper>
             <Footer />
         </div>

@@ -16,12 +16,10 @@ function Header(props) {
                 <div className="hidden md:flex max-w-5xl items-center space-x-7 float-right">
                     <a href="/"
                        className={location.pathname === "/" ? "menu-item-active" : "menu-item"}>Home</a>
-                    <a href="/process-promise"
-                       className={location.pathname === "/process-promise" ? "menu-item-active" : "menu-item"}>Process + Promise</a>
+                    {/*<a href="/process-promise" className={location.pathname === "/process-promise" ? "menu-item-active" : "menu-item"}>Process + Promise</a>*/}
                     <a href="/services"
                        className={location.pathname === "/services" ? "menu-item-active" : "menu-item"}>Services</a>
-                    <a href="/about"
-                       className={location.pathname === "/about" ? "menu-item-active" : "menu-item"}>About</a>
+                    {/*<a href="/about" className={location.pathname === "/about" ? "menu-item-active" : "menu-item"}>About</a>*/}
                     <a href="/portfolio"
                        className={location.pathname.substring(0,10) === "/portfolio" ? "menu-item-active" : "menu-item"}>Portfolio</a>
                     <a href="/contact"
@@ -50,12 +48,10 @@ function Header(props) {
                 <ul className="">
                     <li><a href="/"
                        className={location.pathname === "/" ? "menu-item-active" : "menu-item"}>Home</a></li>
-                    <li><a href="/process-promise"
-                           className={location.pathname === "/process-promise" ? "menu-item-active" : "menu-item"}>Process + Promise</a></li>
+                    {/*<li><a href="/process-promise" className={location.pathname === "/process-promise" ? "menu-item-active" : "menu-item"}>Process + Promise</a></li>*/}
                     <li><a href="/services"
                            className={location.pathname === "/services" ? "menu-item-active" : "menu-item"}>Services</a></li>
-                    <li><a href="/about"
-                       className={location.pathname === "/about" ? "menu-item-active" : "menu-item"}>About</a></li>
+                    {/*<li><a href="/about" className={location.pathname === "/about" ? "menu-item-active" : "menu-item"}>About</a></li>*/}
                     <li><a href="/portfolio"
                            className={location.pathname === "/portfolio" ? "menu-item-active" : "menu-item"}>Portfolio</a></li>
                     <li><a href="/contact"

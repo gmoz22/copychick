@@ -1,17 +1,30 @@
 import * as React from "react";
 import Header from "../components/Header";
-import PortfolioHeader from "../components/portfolio/Header";
 import PortfolioWrapper from "../components/portfolio/Wrapper";
+import PortfolioHeader from "../components/portfolio/Header";
 import PortfolioTitle from "../components/portfolio/Title";
 import PortfolioBody from "../components/portfolio/Body";
-import PortfolioTagline from "../components/portfolio/Tagline";
-import ImgKarma1 from '../img/portfolio/karma-tequila-home-1.jpg';
 import Footer from "../components/Footer";
+import iHeader from "../img/portfolio/karma-tequila-header.png";
 
 function PortfolioKarmaTequilaPage() {
     return (
         <div>
             <Header />
+            <PortfolioWrapper>
+                <PortfolioHeader image={iHeader}>
+                    <PortfolioTitle title="Creative Objective" />
+                    Produce sophisticated digital copy detailing the heritage and distillation process for the award-winning spirits brand, Karma Tequila.
+                    <br/>
+                    <br/>
+                    <PortfolioTitle title="Deliverables" />
+                    Brand Profile, PROCESS Web Page.
+                </PortfolioHeader>
+                <PortfolioBody>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi cumque eos nobis ratione voluptates. Architecto consectetur cum dolor facere illo in minus, nemo nisi nulla pariatur ratione tempora vel voluptatibus.
+                </PortfolioBody>
+            </PortfolioWrapper>
+{/*
             <PortfolioHeader title="Karma Tequila" />
             <PortfolioWrapper>
                 <div>
@@ -56,7 +69,7 @@ function PortfolioKarmaTequilaPage() {
                         Karma Tequila’s PROCESS profile is an atmospheric journey into the highlands of Jalisco, Mexico. Here is where the agave plants are grown, and where decades-old, hands-on traditions are employed in developing premium, small-batch tequila. From Kentucky to Jalisco, heritage is the unifying factor that cements Karma Tequila’s pride of place in the realm of luxury tequila.
                     </p>
                 </PortfolioBody>
-            </PortfolioWrapper>
+            </PortfolioWrapper>*/}
             <Footer />
         </div>
     );

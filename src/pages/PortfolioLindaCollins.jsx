@@ -1,24 +1,31 @@
 import * as React from "react";
 import Header from "../components/Header";
-import PortfolioHeader from "../components/portfolio/Header";
 import PortfolioWrapper from "../components/portfolio/Wrapper";
+import PortfolioHeader from "../components/portfolio/Header";
 import PortfolioTitle from "../components/portfolio/Title";
 import PortfolioBody from "../components/portfolio/Body";
-import PortfolioTagline from "../components/portfolio/Tagline";
 import Footer from "../components/Footer";
+import iHeader from "../img/portfolio/linda-collins-header.png";
 
 function PortfolioLindaCollinsPage() {
     return (
         <div>
             <Header />
-            <PortfolioHeader title="Linda Collins" />
             <PortfolioWrapper>
-                <div>
-                    <img className="w-full" src="https://media.licdn.com/dms/image/C5616AQEGwzUr9bN-sA/profile-displaybackgroundimage-shrink_200_800/0/1642558428332?e=2147483647&v=beta&t=L5KHz3BMpjAC3czHVD2CQAXfMohKrk3J-9b5sO3Swqw" />
-                </div>
-                <br/>
-                <br/>
-                <PortfolioTitle title="Linda Collins" />
+                <PortfolioHeader image={iHeader}>
+                    <PortfolioTitle title="Creative Objective" />
+                     Craft a philanthropy-focused bio for businesswoman Linda Collins, the Co-Founder of Core Hydration, and the Co-Founder and Chief Sustainability Officer of ZENWTR, CORE FOODS and MUSE Organic, for placement on the website of the Los Angeles-based nonprofit, Visionary Women.
+                    <br/>
+                    <br/>
+                    <PortfolioTitle title="Deliverable" />
+                    Professional Bio.
+                </PortfolioHeader>
+                <PortfolioBody>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad, amet corporis distinctio eaque eos fuga illo labore libero molestias nostrum numquam qui quidem quis reprehenderit sit tempora, veniam. Atque!
+                </PortfolioBody>
+            </PortfolioWrapper>
+
+            {/*
                 <PortfolioBody type="Professional Bio" industry="Businesswoman and Philanthropist">
                     <PortfolioTagline title="Distill and Chill / From Farm to Fruition" />
                     <br/>
@@ -48,9 +55,8 @@ function PortfolioLindaCollinsPage() {
                     <br/>
                     <p>
                         <a href="https://www.visionarywomen.com/leadership/linda-collins/" target="_blank">https://www.visionarywomen.com/leadership/linda-collins/</a>
-                    </p>
-                </PortfolioBody>
-            </PortfolioWrapper>
+                    </p>*/}
+
             <Footer />
         </div>
     );

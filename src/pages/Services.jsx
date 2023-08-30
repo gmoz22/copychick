@@ -3,15 +3,127 @@ import Header from "../components/Header";
 import Title from "../components/Title";
 import Body from "../components/Body";
 import Footer from "../components/Footer";
+import iServicesHeader from "../img/services/header.jpg"
+import iServicesBrandInvestment from "../img/services/brand_investment.jpg"
+import iServicesCopyConsumer from "../img/services/copy_consumer.jpg"
 
 function ServicesPage() {
     return (
         <div>
             <Header/>
-            <Title title="Services" />
-            <Body>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus delectus est fugit nisi voluptas. Aliquid animi eaque earum excepturi facere, possimus quibusdam voluptas. Ad adipisci alias aliquam asperiores dolorem doloremque dolores doloribus eligendi eveniet ex exercitationem facere fuga hic inventore ipsam iure laudantium magnam mollitia nam nostrum obcaecati optio quasi qui quo quod quos reiciendis rem similique, sit vel veniam vitae voluptas voluptates? Adipisci aperiam assumenda dicta dolor doloremque explicabo pariatur possimus quidem rem suscipit tempora ullam veritatis, voluptates? Ad alias, aperiam assumenda atque consequuntur corporis debitis dolorem doloremque dolorum enim ex ipsa nam nesciunt nulla numquam placeat quam quia recusandae reiciendis repudiandae rerum sit sunt vel vitae voluptas! Atque commodi enim id laboriosam laudantium molestias, perspiciatis quae saepe. Alias cupiditate deleniti earum eos quae qui reiciendis. Aut deserunt dolorem enim incidunt placeat, provident vero. Cumque delectus itaque laborum porro quibusdam. Eligendi expedita hic in ipsam laboriosam nam, pariatur provident recusandae sed similique. Accusantium aliquam aut beatae commodi distinctio ducimus eius est facere facilis fuga fugiat, iste iusto minima nihil obcaecati perferendis possimus quae quaerat quam quisquam quod ratione rem repellat rerum saepe similique soluta tempore ut voluptas voluptatem! Aliquid aspernatur error fugit illum minima perspiciatis quibusdam sunt suscipit vitae?
-            </Body>
+            <div className="text-md lg:text-lg">
+                <div className="w-screen mt-28">
+                    <img src={iServicesHeader} className="w-full" />
+                </div>
+                <div className="flex-none inline-block lg:w-full lg:flex">
+                    <div className="w-full lg:w-1/2 bg-white text-primary">
+                        <div className="w-full p-8">
+                            <img src={iServicesCopyConsumer} className="w-full" />
+                        </div>
+                        <div className="px-8 pb-8">
+                            <div>Sparking the right conversation with your audience inspires emotions and drives behavior. What you put out there guides people to take certain actions, like buy and believe, subscribe and share, support and invest. Ultimately, the art of convo is the very cornerstone of your business, directly impacting your bottom line.</div>
+                            <br/>
+                            <div>With a range of high-quality services, Copychick makes it easy to invest in premium copy that appeals to the needs and soul of your audience.</div>
+                            <br/>
+                            <div>
+                                <ul className="mt-4 list-disc list-outside mx-10">
+                                    <li className="mb-2"><span className="font-bold">Website Copy.</span> Sparkling, on-brand copy for your entire website or select pages. Copy for new websites or existing websites that need a refresh. Churned out with your critical messaging in-tact and born to run with your website design. Copychick’s sweet spot!</li>
+                                    <li className="mb-2"><span className="font-bold">Social Copy.</span> Click-inciting, share-worthy, heart-tapping, customer-converting copy to uplevel your social campaigns.</li>
+                                    <li className="mb-2"><span className="font-bold">Sales - Advertising - Marketing - Promotional Copy.</span> Punchy and persuasive prose that spotlights, sparks convos and sells.</li>
+                                    <li className="mb-2"><span className="font-bold">Professional Bio - About Us - Brand Story.</span> Copychick’s fave - telling the story of YOU! Bring on the bragging rights.</li>
+                                    <li className="mb-2"><span className="font-bold">Emails + Newsletters.</span> Info-packed tidings customized for your subscribers’ inbox.</li>
+                                    <li className="mb-2"><span className="font-bold">Press Releases.</span> Headline-grabbing spin on newsworthy aspects of your brand written for media placement. (I do NOT submit or distribute press releases).</li>
+                                    <li className="mb-2"><span className="font-bold">Articles + Blog Posts.</span> Expertly-written pieces tailored to your niche with a healthy dose of high-quality SEO.</li>
+                                    <li className="mb-2"><span className="font-bold">Taglines.</span> A catchy, minimalist nugget of copy bursting with maximum impact.</li>
+                                    <li className="mb-2"><span className="font-bold">Elevator Pitches.</span> Know how to WOW in 60 seconds or less? I do!</li>
+                                    <li className="mb-2"><span className="font-bold">And More.</span> Don’t see what you need? Holler. Chances are I can make it happen. Unless it’s an article on where crypto and chemtrails meet, or a social campaign for your solar-powered Airbnb on the moon. Hard pass.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="w-full lg:w-1/2 bg-primary text-white">
+                        <div className="w-full p-8">
+                            <img src={iServicesBrandInvestment} className="w-full" />
+                        </div>
+                        <div className="px-8 pb-8">
+                            <div>Branding is the consistent, finely-tuned messaging that underpins your direct conversation with consumers. Great branding strikes a visceral chord by declaring what you’re about and what you believe in, compelling audiences who vibe with your story, values and vision to pledge their allegiance.</div>
+                            <br/>
+                            <div>Copychick strives to set you apart from the competition with top-shelf branding solutions.</div>
+                            <br/>
+                            <div>
+                                <span className="font-bold">Brand Strategy</span>: A strategically-crafted, multi-page blueprint outlining the variety of powerful elements that underpin your brand communications. These typically include:
+                                <ul className="mt-4 list-disc list-outside mx-10">
+                                    <li><span>Mission Statement</span></li>
+                                    <li><span>Vision Statement</span></li>
+                                    <li><span>Brand Voice</span></li>
+                                    <li><span>Brand Values</span></li>
+                                    <li><span>Value Proposition</span></li>
+                                    <li><span>Brand Story</span></li>
+                                    <li><span>Brand Positioning Statement</span></li>
+                                    <li><span>And more</span></li>
+                                </ul>
+                            </div>
+                            <br/>
+                            <div>
+                                <span className="font-bold">Brand Strategy – Individual Elements</span>: Copychick delivers any of the above Brand Strategy elements to stand alone.
+                            </div>
+                            <br/>
+                            <div>
+                                <span className="font-bold">Brand Revamp</span>: A refresh of old branding that’s in need of innovative updates.
+                            </div>
+                            <br/>
+                            <div>
+                                <span className="font-bold">Brand Positioning</span>: Copychick defines the unique angle for positioning your brand as the essential go-to within your marketplace.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+{/*
+                <div className="mt-12 font-bold underline">COPYWRITING</div>
+                <div className="mt-4 italic">“Copy is a direct conversation with the consumer.” – Shirley Polykoff, pioneering advertising Executive</div>
+                <div className="mt-8">Sparking the right conversation with your audience is the very cornerstone of your business. How so? Wowing your people has the power to inspire emotions and behavior that drives their decisions, which directly impacts your bottom line.</div>
+                <div className="mt-4">Do your business a solid and invest in premium copy that speaks directly to the needs and soul of your audience.</div>
+                <div className="mt-4">All the awesome COPYCHICK can do for you:</div>
+                <ul className="mt-4 list-disc list-inside mx-10">
+                    <li><span className="text-primary font-bold">Website Copy.</span> Sparkling, on-brand copy for your entire website or select pages. Copy for new websites or existing websites that need a refresh. Churned out with your critical messaging in-tact and born to run with your website design. Copychick’s sweet spot!</li>
+                    <li><span className="text-primary font-bold leading-10">Social Copy.</span> Click-inciting, share-worthy, heart-tapping, customer-converting copy to uplevel your social campaigns.</li>
+                    <li><span className="text-primary font-bold leading-10">Sales - Advertising - Marketing - Promotional Copy.</span> Punchy and persuasive prose that spotlights, sparks convos and sells.</li>
+                    <li><span className="text-primary font-bold leading-10">Professional Bio - About Us - Brand Story.</span> Copychick’s fave project - telling the story of YOU. Bring on the bragging rights!</li>
+                    <li><span className="text-primary font-bold leading-10">Emails + Newsletters.</span> Info-packed tidings customized for your subscribers’ inbox.</li>
+                    <li><span className="text-primary font-bold leading-10">Press Releases.</span> Headline-grabbing spin on newsworthy aspects of your brand written for media placement. (I do NOT submit or distribute press releases).</li>
+                    <li><span className="text-primary font-bold leading-10">Articles + Blog Posts.</span> Expertly-written pieces tailored to your niche with a healthy dose of high-quality SEO.</li>
+                    <li><span className="text-primary font-bold leading-10">Taglines.</span> A catchy, minimalist nugget of copy bursting with maximum impact.</li>
+                    <li><span className="text-primary font-bold leading-10">Elevator Pitches.</span> Know how to WOW in 60 seconds or less? I do!</li>
+                    <li><span className="text-primary font-bold leading-10">And More:</span> Don’t see what you need? Holler. Chances are I can make it happen. Unless it’s an article on where crypto and chemtrails meet, or a social campaign for your solar-powered Airbnb on the moon. Hard pass.</li>
+                </ul>
+
+                <div className="mt-12 font-bold underline">BRANDING</div>
+                <div className="mt-4">Branding is the consistent, fine-tuned messaging that underpins your big conversation with consumers. Great branding wins audience loyalty by striking a visceral chord, while at the same time staying true to your mission, vision and values.</div>
+                <div className="mt-4">Invest in a top-shelf brand strategy that positions you to command your marketplace spotlight. You can’t go wrong with Copychick leading the way!</div>
+                <ul className="mt-4 list-disc list-inside mx-10">
+                    <li><span className="text-primary font-bold">Brand Strategy:</span> A strategically crafted, multi-page blueprint that spells out the position, message, voice, tone, and more embedded in your brand communications.<br/>
+                        <br/>
+                        A Brand Strategy is a whole enchilada kinda thing, but I also craft individual elements. Typical elements of a Brand Strategy include Mission Statement, Vision Statement, Brand Voice, Brand Values, Brand Story, Brand Positioning Statement, and more.</li>
+                    <li><span className="text-primary font-bold leading-10">Brand Revamp:</span> An injection of new life into old branding that’s begging for some innovative updates.</li>
+                    <li><span className="text-primary font-bold leading-10">Brand Positioning:</span> Who are you? What’s your value proposition? What sets you apart from your peers and competition? Prepare to get existential as we position your brand as the unique and essential go-to within your marketplace.</li>
+                </ul>*/}
+
+                <div className="w-4/5 m-auto bg-primary flex mt-24">
+                    <div className="m-auto flex-1 bg-white m-12 p-8">
+                        <div className="w-full text-center text-primary text-2xl font-bold">CONSULTING</div>
+                        <div className="mt-8 text-sm sm:text-lg md:text-xl">
+                            Need a fresh-eyed audit of your copy or branding? Copychick’s got your back. I’m happy to consult with you on any of your communications assets. <br className="hidden lg:inline-block" />
+                            <br className="hidden lg:inline-block" />
+                            I can help you do everything from brainstorm new ideas to devising how to build a better mouse trap.</div>
+                    </div>
+                </div>
+
+                <div className="mt-24 m-auto text-3xl text-primary text-center font-bold">
+                    Do your bottom line a solid and hire Copychick<br/>
+                    for all of your copy + branding needs!
+                </div>
+
+            </div>
             <Footer />
         </div>
     );

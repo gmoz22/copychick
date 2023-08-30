@@ -4,26 +4,26 @@ import PortfolioHeader from "../components/portfolio/Header";
 import PortfolioWrapper from "../components/portfolio/Wrapper";
 import PortfolioTitle from "../components/portfolio/Title";
 import PortfolioBody from "../components/portfolio/Body";
-import PortfolioTagline from "../components/portfolio/Tagline";
-import ImgJenP1 from '../img/portfolio/jen-p-1.jpg';
 import Footer from "../components/Footer";
+import iHeader from "../img/portfolio/jen-p-header.png";
 
 function PortfolioJenPPage() {
     return (
         <div>
             <Header />
-            <PortfolioHeader title="Jen P." />
             <PortfolioWrapper>
-                <div>
-                    <img className="w-full" src={ImgJenP1} />
-                </div>
-                <br/>
-                <br/>
-                <PortfolioTitle title="Jen P." />
-                <PortfolioBody type="Brand Strategy" industry="Lifestyle Entrepreneur">
-                    <PortfolioTagline title="Where Soul Meets Goal" />
+                <PortfolioHeader image={iHeader}>
+                    <PortfolioTitle title="Creative Objective" />
+                    Create a Brand Strategy for a successful Career Coach as part of a comprehensive plan to scale up her online business.
                     <br/>
-                    <h3>Overview</h3>
+                    <br/>
+                    <PortfolioTitle title="Deliverables" />
+                    Brand Strategy – Messaging, Vision, Values, Tagline, Audience Persona, Voice Guidelines, Brand Story, Tagline, and more.
+                </PortfolioHeader>
+                <PortfolioBody>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium assumenda blanditiis consequatur deleniti deserunt, eligendi eum facilis fuga fugiat hic illo in nostrum quam quia reiciendis totam unde veniam vitae?
+                </PortfolioBody>
+                    {/*<h3>Overview</h3>
                     <div>
                         Life coach Jen P. empowers women entrepreneurs to live out loud building businesses they love.
                     </div>
@@ -45,8 +45,7 @@ function PortfolioJenPPage() {
                     <br/>
                     <p>
                         I channeled all of this into a one-of-a-kind Brand Strategy capturing the sassy vibe and savvy ladypreneur spirit of the Jen P. brand. Chief among the brand strategy was positioning Jen in a class of her own. Since she had a long track record of coaching aspiring life coaches on how to launch their business, and because the course she was writing focused on this, it was a no-brainer to position her as “the coaches coach.”
-                    </p>
-                </PortfolioBody>
+                    </p>*/}
             </PortfolioWrapper>
             <Footer />
         </div>

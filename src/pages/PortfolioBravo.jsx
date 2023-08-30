@@ -1,28 +1,29 @@
 import * as React from "react";
 import Header from "../components/Header";
-import PortfolioHeader from "../components/portfolio/Header";
 import PortfolioWrapper from "../components/portfolio/Wrapper";
+import PortfolioHeader from "../components/portfolio/Header";
 import PortfolioTitle from "../components/portfolio/Title";
 import PortfolioBody from "../components/portfolio/Body";
-import PortfolioTagline from "../components/portfolio/Tagline";
-import ImgBravo1 from '../img/portfolio/bravo-1.jpg';
 import Footer from "../components/Footer";
+import iHeader from "../img/portfolio/bravo-header.png";
 
 function PortfolioBravoPage() {
     return (
         <div>
             <Header />
-            <PortfolioHeader title="Bravo" />
             <PortfolioWrapper>
-                <div>
-                    <img className="w-full" src={ImgBravo1} />
-                </div>
-                <br/>
-                <br/>
-                <PortfolioTitle title="Bravo" />
-                <PortfolioBody type="EP Launch + Artist Profile" industry="Recording Artist">
-                    <PortfolioTagline title="Enlist or Perish" />
+                <PortfolioHeader image={iHeader}>
+                    <PortfolioTitle title="Creative Objective" />
+                    Produce a multi-faceted profile detailing the launch of a new EP and streaming platform for the hip-hop recording artist, Bravo.
                     <br/>
+                    <br/>
+                    <PortfolioTitle title="Deliverables" />
+                    Artist, Product and EP Profile.
+                </PortfolioHeader>
+                <PortfolioBody>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium assumenda blanditiis consequatur deleniti deserunt, eligendi eum facilis fuga fugiat hic illo in nostrum quam quia reiciendis totam unde veniam vitae?
+                </PortfolioBody>
+                    {/*<br/>
                     <h3>Overview</h3>
                     <div>
                         Bravo is a Los Angeles-based hip-hop artist and digital entrepreneur with several high-profile collabs and mix tapes under his belt.
@@ -45,8 +46,7 @@ function PortfolioBravoPage() {
                     <br/>
                     <p>
                         The second half of the profile of Enlist or Perish, providing a snippet of what each song is like. Once it was clear that Bravo is a rap force to be reckoned with, I moved on to the launch of Bravo Connect.
-                    </p>
-                </PortfolioBody>
+                    </p>*/}
             </PortfolioWrapper>
             <Footer />
         </div>

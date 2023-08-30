@@ -4,32 +4,26 @@ import PortfolioHeader from "../components/portfolio/Header";
 import PortfolioWrapper from "../components/portfolio/Wrapper";
 import PortfolioTitle from "../components/portfolio/Title";
 import PortfolioBody from "../components/portfolio/Body";
-import PortfolioTagline from "../components/portfolio/Tagline";
-import ImgMWAC1 from '../img/portfolio/mwac/mwac-brandstyleguide-1.png';
-import ImgMWAC2 from '../img/portfolio/mwac/mwac-brandstyleguide-2.png';
-import ImgMWAC3 from '../img/portfolio/mwac/mwac-brandstyleguide-3.png';
-import ImgMWAC4 from '../img/portfolio/mwac/mwac-brandstyleguide-4.png';
 import Footer from "../components/Footer";
+import iHeader from "../img/portfolio/mwac-header.png";
 
 function PortfolioMWACPage() {
     return (
         <div>
             <Header />
-            <PortfolioHeader title="MWAC" />
-            <PortfolioWrapper class="portfolio">
-                <div>
-                    <img src={ImgMWAC1} className="inline-block w-[300px] mr-5 border border-gray-500" />
-                    <img src={ImgMWAC2} className="inline-block w-[300px] mr-5 border border-gray-500" />
-                    <img src={ImgMWAC3} className="inline-block w-[300px] mr-5 border border-gray-500" />
-                    <img src={ImgMWAC4} className="inline-block w-[300px] border border-gray-500" />
-                </div>
-                <br/>
-                <br/>
-                <PortfolioTitle title="Models With A Cause" />
-                <PortfolioBody type="360-Strategy" industry="Nonprofit">
-                    <PortfolioTagline title="Be the Role Model You Were Born to Be" />
+            <PortfolioWrapper>
+                <PortfolioHeader image={iHeader}>
+                    <PortfolioTitle title="Creative Objective" />
+                    Create a Brand Strategy for a successful Career Coach as part of a comprehensive plan to scale up her online business.
                     <br/>
-                    <h3>Overview</h3>
+                    <br/>
+                    <PortfolioTitle title="Deliverables" />
+                    Brand Strategy – Messaging, Vision, Values, Tagline, Audience Persona, Voice Guidelines, Brand Story, Tagline, and more.
+                </PortfolioHeader>
+                <PortfolioBody>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium assumenda blanditiis consequatur deleniti deserunt, eligendi eum facilis fuga fugiat hic illo in nostrum quam quia reiciendis totam unde veniam vitae?
+                </PortfolioBody>
+                    {/*<h3>Overview</h3>
                     <div>
                         Models With a Cause (MWAC) is a Los Angeles-based, 501 (c)(3) nonprofit organization that connects advocates, donors and resources with global and humanitarian causes.
                     </div>
@@ -87,8 +81,7 @@ function PortfolioMWACPage() {
                     <br/>
                     <p>
                         Network of Inspiration, deployed bi-weekly for six weeks, solicited Facebook users to donate and/or volunteer at a benchmark level in exchange for being listed as part of an influential Network of Inspiration that had pride of place on the MWAC website. The MWAC Facebook Page garnered 536 new followers during this six weeks.
-                    </p>
-                </PortfolioBody>
+                    </p>*/}
             </PortfolioWrapper>
             <Footer />
         </div>

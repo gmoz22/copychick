@@ -10,8 +10,10 @@ module.exports = {
     extend: {
       colors: {
         // primary: '#EE0059',
-        primary: '#EC4899', // text-pink-500
-        primary_70: 'rgba(237,74,155,0.7)', // text-pink-500
+        primary: '#FF3FCB', // text-pink-500
+        primary_70: 'rgb(255,63,203, 0.7)', // text-pink-500
+        primary_50: 'rgb(255,63,203, 0.5)',
+        primary_30: 'rgb(255,63,203, 0.3)',
         secondary: '#A3105A',
         // tertiary: '#FF4DA6',
         tertiary: '#DB2777', // text-pink-600
@@ -28,19 +30,16 @@ module.exports = {
     backgroundImage: {
       'home-splash-copy-brand-strategy': "url('img/home/splash_copy-brand-strategy.jpg')",
       'home-splash-jen-pic': "url('img/home/splash_jen-profile-pic.jpg')",
-      'home-splash-hire-copychick': "url('img/home/splash_hire-copychick.jpg')",
+      'home-splash-hire-copychick': "url('img/home/splash_hire_copychick.png')",
+      'home-splash-hire-copychick-bullets': "url('img/home/splash_hire_copychick_bullets.png')",
       'home-oprah-quote': "url('img/home/quote-oprah.png')",
-      'home-delegate-for-success': "url('img/home/delegate-for-success.png')",
       'home-copychick-perks': "url('img/home/copychick-perks.jpg')",
       'home-diy-hurts': "url('img/home/diy-hurts.jpg')",
     },
     safelist: [
-      // 'text-2xl',
-      // 'text-3xl',
       {
         pattern: /w-*/,
         pattern: /h-*/,
-        // pattern: /bg-(red|green|blue)-(100|200|300)/,
       },
     ],
   },

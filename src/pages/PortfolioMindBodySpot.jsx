@@ -4,26 +4,26 @@ import PortfolioHeader from "../components/portfolio/Header";
 import PortfolioWrapper from "../components/portfolio/Wrapper";
 import PortfolioTitle from "../components/portfolio/Title";
 import PortfolioBody from "../components/portfolio/Body";
-import PortfolioTagline from "../components/portfolio/Tagline";
-import ImgMBS1 from '../img/portfolio/mind-body-spot-home-1.jpg';
 import Footer from "../components/Footer";
+import iHeader from "../img/portfolio/mind-body-spot-header.png";
 
 function PortfolioMindBodySpotPage() {
     return (
         <div>
             <Header />
-            <PortfolioHeader title="Mind/Body Spot" />
             <PortfolioWrapper>
-                <div>
-                    <img className="w-full" src={ImgMBS1} />
-                </div>
-                <br/>
-                <br/>
-                <PortfolioTitle title="Mind/Body Spot" />
-                <PortfolioBody type="Web Copy" industry="Health + Wellness">
-                    <PortfolioTagline title="Vibrant and Purposeful Living" />
+                <PortfolioHeader image={iHeader}>
+                    <PortfolioTitle title="Creative Objective" />
+                    Devise brand positioning and website copy for a start-up, health-and-wellness collective.
                     <br/>
-                    <h3>Overview</h3>
+                    <br/>
+                    <PortfolioTitle title="Deliverables" />
+                    Brand Positioning, Website Copy.
+                </PortfolioHeader>
+                <PortfolioBody>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium assumenda blanditiis consequatur deleniti deserunt, eligendi eum facilis fuga fugiat hic illo in nostrum quam quia reiciendis totam unde veniam vitae?
+                </PortfolioBody>
+                    {/*<h3>Overview</h3>
                     <div>
                         Mind/Body Spot is a health and wellness community that celebrates vibrant and purposeful living through the embrace of mindfulness, movement and ancestral nutrition.
                     </div>
@@ -50,8 +50,7 @@ function PortfolioMindBodySpotPage() {
                     <br/>
                     <p>
                         I approached the web copy with the mindset of appealing to an audience in need of nurturing and self-care. I crafted SEO web copy in a relatable, first-person voice that is peppered with Ana’s personal, health journey anecdotes. This lends the copy and calls to action an authentic and empathetic tone that draws in visitors and sparks them to take action.
-                    </p>
-                </PortfolioBody>
+                    </p>*/}
             </PortfolioWrapper>
             <Footer />
         </div>

@@ -12,11 +12,12 @@ const PortfolioLindaCollins = lazy(() => import('./pages/PortfolioLindaCollins')
 const PortfolioMindBodySpot = lazy(() => import('./pages/PortfolioMindBodySpot'));
 const PortfolioBravo = lazy(() => import('./pages/PortfolioBravo'));
 const PortfolioJenP = lazy(() => import('./pages/PortfolioJenP'));
-const PortfolioSteveInnovates = lazy(() => import('./pages/PortfolioSteveInnovates'));
 const PortfolioAMGLounges = lazy(() => import('./pages/PortfolioAMGLounges'));
-const ProcessAndPromise = lazy(() => import('./pages/ProcessAndPromise'));
+const PortfolioElliotMintz = lazy(() => import('./pages/PortfolioElliotMintz'));
+const PortfolioSteveInnovates = lazy(() => import('./pages/PortfolioSteveInnovates'));
+// const ProcessAndPromise = lazy(() => import('./pages/ProcessAndPromise'));
 const Services = lazy(() => import('./pages/Services'));
-const About = lazy(() => import('./pages/About'));
+// const About = lazy(() => import('./pages/About'));
 const Contact = lazy(() => import('./pages/Contact'));
 
 const App = () => (
@@ -36,11 +37,12 @@ const App = () => (
           <Route path="/portfolio/mind-body-spot" element={<PortfolioMindBodySpot />} />
           <Route path="/portfolio/bravo" element={<PortfolioBravo />} />
           <Route path="/portfolio/jen-p" element={<PortfolioJenP />} />
-          <Route path="/portfolio/steve-innovates" element={<PortfolioSteveInnovates />} />
           <Route path="/portfolio/amg-lounges" element={<PortfolioAMGLounges />} />
-          <Route path="/process-promise" element={<ProcessAndPromise />} />
+          <Route path="/portfolio/elliot-mintz" element={<PortfolioElliotMintz />} />
+          <Route path="/portfolio/steve-innovates" element={<PortfolioSteveInnovates />} />
+          {/*<Route path="/process-promise" element={<ProcessAndPromise />} />*/}
           <Route path="/services" element={<Services />} />
-          <Route path="/about" element={<About />} />
+          {/*<Route path="/about" element={<About />} />*/}
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </Suspense>

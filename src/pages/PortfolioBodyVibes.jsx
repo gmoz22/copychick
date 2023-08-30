@@ -1,25 +1,31 @@
 import * as React from "react";
 import Header from "../components/Header";
-import PortfolioHeader from "../components/portfolio/Header";
 import PortfolioWrapper from "../components/portfolio/Wrapper";
+import PortfolioHeader from "../components/portfolio/Header";
 import PortfolioTitle from "../components/portfolio/Title";
 import PortfolioBody from "../components/portfolio/Body";
-import PortfolioTagline from "../components/portfolio/Tagline";
 import Footer from "../components/Footer";
+import iHeader from "../img/portfolio/body-vibes-header.png";
 
 function PortfolioBodyVibesPage() {
     return (
         <div>
             <Header />
-            <PortfolioHeader title="Body Vibes" />
             <PortfolioWrapper>
-                <div>
-                    <img className="w-full" src="https://content.api.news/v3/images/bin/0699321e1158202e8593d239859642f5" />
-                </div>
-                <br/>
-                <br/>
-                <PortfolioTitle title="Body Vibes" />
-                <PortfolioBody type="Elevator Pitch + Tagline + About" industry="Lifestyle">
+                <PortfolioHeader image={iHeader}>
+                    <PortfolioTitle title="Creative Objective" />
+                    Transform the complicated science behind Body Vibes -- a line of wearable “smart” stickers that claim to stabilize mood -- into fresh, on-brand, millennial-friendly copy for various digital and marketing touchpoints.
+                    <br/>
+                    <br/>
+                    <PortfolioTitle title="Deliverables" />
+                    Tagline, Elevator Pitch, ABOUT Page, Marketing Collateral.
+                </PortfolioHeader>
+                <PortfolioBody>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate distinctio ducimus illo laudantium nihil nisi voluptatibus. Consequatur culpa id impedit, in optio sint voluptatem. Enim maiores molestiae molestias neque tempore.
+                </PortfolioBody>
+            </PortfolioWrapper>
+
+                {/*<PortfolioBody type="Elevator Pitch + Tagline + About" industry="Lifestyle">
                     <PortfolioTagline title="Life in Perfect Frequency" />
                     <br/>
                     <h3>Overview</h3>
@@ -55,8 +61,7 @@ function PortfolioBodyVibesPage() {
                     <p>
                         Research helped me to position Body Vibes as a pioneering lifestyle product within the holistic health and wellness space because it claimed to be a chemical-free mood enhancer. With this angle driving my creative process, I authored an ABOUT page optimized with health and wellness-related, SEO-friendly keywords.  The ABOUT provided a sassy and simplified explanation of how the stickers stabilized mood, explaining that the material used to make them comes pre-programmed with bio-frequencies that identify which of the body’s natural energy frequencies is depleted, <span className="text-primary">and “downloading” the missing bio-frequencies</span>. I gave Raytheon a shout-out for inventing the technology, but eschewed mentioning their involvement with the defense industry in favor of mentioning that NASA is their client.
                     </p>
-                </PortfolioBody>
-            </PortfolioWrapper>
+                </PortfolioBody>*/}
             <Footer />
         </div>
     );

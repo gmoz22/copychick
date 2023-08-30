@@ -2,15 +2,8 @@ import * as React from "react";
 
 function PortfolioBody(props) {
     return (
-        <div className="w-full">
-            <div className="w-1/4 pr-10 float-right">
-                <div className="text-sm text-tertiary"><span className="text-lg text-gray-600 font-bold">Work:</span> {props.type}</div>
-                <br/>
-                <div className="text-sm text-tertiary"><span className="text-lg text-gray-600 font-bold">Client Type:</span> {props.industry}</div>
-            </div>
-            <div className="w-3/4 pr-10">
-                {props.children}
-            </div>
+        <div className="md:max-w-7xl w-full md:mx-auto px-4 md:px-8 mt-12 text-lg md:text-xl border-t-4 border-solid border-primary md:border-none pt-12 md:pt-0">
+            {props.children}
         </div>
     );
 }
