@@ -4,16 +4,16 @@ import Header from "../components/Header";
 import Pager from "../components/Pager";
 import HoverOverlay from "../components/HoverOverlay";
 
-import ImgIDoCopy from "../img/home/i-do-copy.png";
+import ImgIDoCopy from "../img/home/i-do-copy.jpg";
 import ImgJenProfile from "../img/home/splash_jen-profile-pic.jpg";
-import ImgSuperpowersResearch from "../img/home/superpowers_research.png";
-import ImgSuperpowersOutOfTheBox from "../img/home/superpowers_out-of-the-box.png";
-import ImgSuperpowersCommunications from "../img/home/superpowers_communications.png";
-import ImgSuperpowersSEO from "../img/home/superpowers_seo.png";
-import ImgSuperpowersEditorial from "../img/home/superpowers_editorial.png";
-import ImgSuperpowersCreativity from "../img/home/superpowers_creativity.png";
-import ImgSuperpowersBrandPositioning from "../img/home/superpowers_brand-positioning.png";
-import ImgSuperpowersCollab from "../img/home/superpowers_collab.png";
+import ImgSuperpowersResearch from "../img/home/superpowers_research.jpg";
+import ImgSuperpowersOutOfTheBox from "../img/home/superpowers_out-of-the-box.jpg";
+import ImgSuperpowersCommunications from "../img/home/superpowers_communications.jpg";
+import ImgSuperpowersSEO from "../img/home/superpowers_seo.jpg";
+import ImgSuperpowersEditorial from "../img/home/superpowers_editorial.jpg";
+import ImgSuperpowersCreativity from "../img/home/superpowers_creativity.jpg";
+import ImgSuperpowersBrandPositioning from "../img/home/superpowers_brand-positioning.jpg";
+import ImgSuperpowersCollab from "../img/home/superpowers_collab.jpg";
 import ImgAMGLounges from "../img/portfolio/amg-lounges-splash.jpg";
 
 function HomePage() {
@@ -37,7 +37,7 @@ function HomePage() {
         const pageNumbers = [];
         for (let i in pagerConfig) {
             pageNumbers.push(
-                <Pager.Item key={i} number={i} label={pagerConfig[i]} active={i == pageNumber+1} onClick={handlePageChange} />,
+                <Pager.Item key={i} number={i} label={pagerConfig[i]} active={i === pageNumber+1} onClick={handlePageChange} />,
             );
         }
         return [...pageNumbers];

@@ -5,7 +5,7 @@ function Header(props) {
     let location = useLocation();
     let bg = !!props.transparent ? "bg-transparent" : "bg-white";
     return (
-        <nav className={`${bg} fixed top-0 left-0 z-50 w-screen`}>
+        <nav className={`${bg} fixed top-0 left-0 z-50 w-full`}>
             <div className="max-w-7xl mt-6 mx-auto px-4">
                 <div className="max-w-2xl space-x-2 float-left">
                     <a href="/" className="flex items-center py-4 px-2">
@@ -29,7 +29,7 @@ function Header(props) {
 
             <div className="md:hidden flex items-center float-right">
                 <button className="outline-none mobile-menu-button" data-collapse-toggle="navbar-dropdown">
-                    <svg className=" w-6 h-6 text-gray-500 hover:text-primary-500 "
+                    <svg className=" w-6 h-6 text-gray-500 hover:text-primary-500"
                          x-show="!showMenu"
                          fill="none"
                          stroke-linecap="round"

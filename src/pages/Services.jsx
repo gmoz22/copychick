@@ -1,7 +1,5 @@
 import * as React from "react";
 import Header from "../components/Header";
-import Title from "../components/Title";
-import Body from "../components/Body";
 import Footer from "../components/Footer";
 import iServicesHeader from "../img/services/header.jpg"
 import iServicesBrandInvestment from "../img/services/brand_investment.jpg"
@@ -109,7 +107,7 @@ function ServicesPage() {
                 </ul>*/}
 
                 <div className="w-4/5 m-auto bg-primary flex mt-24">
-                    <div className="m-auto flex-1 bg-white m-12 p-8">
+                    <div className="m-auto flex-1 bg-white m-12 p-8 border-solid border-12 border-primary">
                         <div className="w-full text-center text-primary text-2xl font-bold">CONSULTING</div>
                         <div className="mt-8 text-sm sm:text-lg md:text-xl">
                             Need a fresh-eyed audit of your copy or branding? Copychick’s got your back. I’m happy to consult with you on any of your communications assets. <br className="hidden lg:inline-block" />
