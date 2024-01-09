@@ -6,6 +6,8 @@ import PortfolioTitle from "../components/portfolio/Title";
 import PortfolioBody from "../components/portfolio/Body";
 import Footer from "../components/Footer";
 import iHeader from "../img/portfolio/body-vibes-header.png";
+import iTagline from "../img/portfolio/body-vibes-tagline.jpg";
+import iElevatorPitch from "../img/portfolio/body-vibes-elevator_pitch.jpg";
 
 function PortfolioBodyVibesPage() {
     return (
@@ -21,7 +23,12 @@ function PortfolioBodyVibesPage() {
                     Tagline, Elevator Pitch, ABOUT Page, Marketing Collateral.
                 </PortfolioHeader>
                 <PortfolioBody>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate distinctio ducimus illo laudantium nihil nisi voluptatibus. Consequatur culpa id impedit, in optio sint voluptatem. Enim maiores molestiae molestias neque tempore.
+                    <h3 className="italic">Tagline</h3>
+                    <img alt="Body Vibes tagline" src={iTagline} />
+                    <br/>
+                    <br/>
+                    <h3 className="italic">Elevator Pitch</h3>
+                    <img alt="Body Vibes elevator pitch" src={iElevatorPitch} />
                 </PortfolioBody>
             </PortfolioWrapper>
 

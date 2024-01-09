@@ -6,6 +6,8 @@ import PortfolioTitle from "../components/portfolio/Title";
 import PortfolioBody from "../components/portfolio/Body";
 import Footer from "../components/Footer";
 import iHeader from "../img/portfolio/elliott-mintz-header.png";
+import iBio from "../img/portfolio/elliott-mintz-bio-mwac.jpg";
+import iProfile from "../img/portfolio/bravo-profile.jpg";
 
 function PortfolioElliotMintzPage() {
     return (
@@ -21,7 +23,8 @@ function PortfolioElliotMintzPage() {
                     Two Professional Bios.
                 </PortfolioHeader>
                 <PortfolioBody>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium assumenda blanditiis consequatur deleniti deserunt, eligendi eum facilis fuga fugiat hic illo in nostrum quam quia reiciendis totam unde veniam vitae?
+                    <h3 className="italic">Bio</h3>
+                    <img alt="Elliot Mintz Bio" src={iBio} />
                 </PortfolioBody>
             </PortfolioWrapper>
             <Footer />

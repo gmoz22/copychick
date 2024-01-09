@@ -6,6 +6,8 @@ import PortfolioTitle from "../components/portfolio/Title";
 import PortfolioBody from "../components/portfolio/Body";
 import Footer from "../components/Footer";
 import iHeader from "../img/portfolio/mwac-header.png";
+import iWebHome from "../img/portfolio/mwac-home.jpg";
+import iWebCauses from "../img/portfolio/mwac-causes.jpg";
 
 function PortfolioMWACPage() {
     return (
@@ -14,14 +16,18 @@ function PortfolioMWACPage() {
             <PortfolioWrapper>
                 <PortfolioHeader image={iHeader}>
                     <PortfolioTitle title="Creative Objective" />
-                    Create a Brand Strategy for a successful Career Coach as part of a comprehensive plan to scale up her online business.
+                    Collaborate extensively with key stakeholders to develop multiple digital communications for the launch of a Los Angeles-based nonprofit.
                     <br/>
                     <br/>
                     <PortfolioTitle title="Deliverables" />
-                    Brand Strategy – Messaging, Vision, Values, Tagline, Audience Persona, Voice Guidelines, Brand Story, Tagline, and more.
+                    Brand Strategy, Website Copy, 360-Marketing Campaign, Professional Bios for the Board of Directors.
                 </PortfolioHeader>
                 <PortfolioBody>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium assumenda blanditiis consequatur deleniti deserunt, eligendi eum facilis fuga fugiat hic illo in nostrum quam quia reiciendis totam unde veniam vitae?
+                    <h3 className="italic">Website Copy</h3>
+                    <img alt="MWAC Website Home page" src={iWebHome} />
+                    <br/>
+                    <br/>
+                    <img alt="MWAC Website Causes page" src={iWebCauses} />
                 </PortfolioBody>
                     {/*<h3>Overview</h3>
                     <div>

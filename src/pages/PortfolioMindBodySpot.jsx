@@ -6,6 +6,10 @@ import PortfolioTitle from "../components/portfolio/Title";
 import PortfolioBody from "../components/portfolio/Body";
 import Footer from "../components/Footer";
 import iHeader from "../img/portfolio/mind-body-spot-header.png";
+import iBrandP1 from "../img/portfolio/mind-body-spot-brand-p1.jpg";
+import iBrandP2 from "../img/portfolio/mind-body-spot-brand-p2.jpg";
+import iBrandP3 from "../img/portfolio/mind-body-spot-brand-p3.jpg";
+import iBrandP4 from "../img/portfolio/mind-body-spot-brand-p4.jpg";
 
 function PortfolioMindBodySpotPage() {
     return (
@@ -21,7 +25,17 @@ function PortfolioMindBodySpotPage() {
                     Brand Positioning, Website Copy.
                 </PortfolioHeader>
                 <PortfolioBody>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium assumenda blanditiis consequatur deleniti deserunt, eligendi eum facilis fuga fugiat hic illo in nostrum quam quia reiciendis totam unde veniam vitae?
+                    <h3 className="italic">Brand Positioning</h3>
+                    <img alt="Mind/Body Spot Brand - Page 1" src={iBrandP1} />
+                    <br/>
+                    <br/>
+                    <img alt="Mind/Body Spot Brand - Page 2" src={iBrandP2} />
+                    <br/>
+                    <br/>
+                    <img alt="Mind/Body Spot Brand - Page 3" src={iBrandP3} />
+                    <br/>
+                    <br/>
+                    <img alt="Mind/Body Spot Brand - Page 4" src={iBrandP4} />
                 </PortfolioBody>
                     {/*<h3>Overview</h3>
                     <div>
