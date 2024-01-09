@@ -6,6 +6,7 @@ import PortfolioTitle from "../components/portfolio/Title";
 import PortfolioBody from "../components/portfolio/Body";
 import Footer from "../components/Footer";
 import iHeader from "../img/portfolio/bravo-header.png";
+import iProfile from "../img/portfolio/bravo-profile.jpg";
 
 function PortfolioBravoPage() {
     return (
@@ -21,7 +22,8 @@ function PortfolioBravoPage() {
                     Artist, Product and EP Profile.
                 </PortfolioHeader>
                 <PortfolioBody>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium assumenda blanditiis consequatur deleniti deserunt, eligendi eum facilis fuga fugiat hic illo in nostrum quam quia reiciendis totam unde veniam vitae?
+                    <h3 className="italic">Profile</h3>
+                    <img alt="Bravo Profile" src={iProfile} />
                 </PortfolioBody>
                     {/*<br/>
                     <h3>Overview</h3>

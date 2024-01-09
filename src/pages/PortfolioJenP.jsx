@@ -6,6 +6,11 @@ import PortfolioTitle from "../components/portfolio/Title";
 import PortfolioBody from "../components/portfolio/Body";
 import Footer from "../components/Footer";
 import iHeader from "../img/portfolio/jen-p-header.png";
+import iBrandP1 from "../img/portfolio/jen-p-brand_story_1.jpg";
+import iBrandP2 from "../img/portfolio/jen-p-brand_story_2.jpg";
+import iBrandP3 from "../img/portfolio/jen-p-brand_story_3.jpg";
+import iBrandP4 from "../img/portfolio/jen-p-brand_story_4.jpg";
+import iBrandP5 from "../img/portfolio/jen-p-brand_story_5.jpg";
 
 function PortfolioJenPPage() {
     return (
@@ -21,7 +26,20 @@ function PortfolioJenPPage() {
                     Brand Strategy – Messaging, Vision, Values, Tagline, Audience Persona, Voice Guidelines, Brand Story, Tagline, and more.
                 </PortfolioHeader>
                 <PortfolioBody>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium assumenda blanditiis consequatur deleniti deserunt, eligendi eum facilis fuga fugiat hic illo in nostrum quam quia reiciendis totam unde veniam vitae?
+                    <h3 className="italic">Brand Strategy - Brand Story</h3>
+                    <img alt="Jen P Brand Strategy - Page 1" src={iBrandP1} />
+                    <br/>
+                    <br/>
+                    <img alt="Jen P Brand Strategy - Page 2" src={iBrandP2} />
+                    <br/>
+                    <br/>
+                    <img alt="Jen P Brand Strategy - Page 3" src={iBrandP3} />
+                    <br/>
+                    <br/>
+                    <img alt="Jen P Brand Strategy - Page 4" src={iBrandP4} />
+                    <br/>
+                    <br/>
+                    <img alt="Jen P Brand Strategy - Page 5" src={iBrandP5} />
                 </PortfolioBody>
                     {/*<h3>Overview</h3>
                     <div>

@@ -6,6 +6,7 @@ import PortfolioTitle from "../components/portfolio/Title";
 import PortfolioBody from "../components/portfolio/Body";
 import Footer from "../components/Footer";
 import iHeader from "../img/portfolio/linda-collins-header.png";
+import iVisionaryWomenScreenshot from "../img/portfolio/linda-collins-visionary_women_website_screenshot.jpg";
 
 function PortfolioLindaCollinsPage() {
     return (
@@ -21,7 +22,8 @@ function PortfolioLindaCollinsPage() {
                     Professional Bio.
                 </PortfolioHeader>
                 <PortfolioBody>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad, amet corporis distinctio eaque eos fuga illo labore libero molestias nostrum numquam qui quidem quis reprehenderit sit tempora, veniam. Atque!
+                    <h3 className="italic">Visonary Women Website bio</h3>
+                    <img alt="Visionary Women website screenshot" src={iVisionaryWomenScreenshot} />
                 </PortfolioBody>
             </PortfolioWrapper>
 

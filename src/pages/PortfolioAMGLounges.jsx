@@ -6,6 +6,7 @@ import PortfolioTitle from "../components/portfolio/Title";
 import PortfolioBody from "../components/portfolio/Body";
 import Footer from "../components/Footer";
 import iHeader from "../img/portfolio/amg-lounges-header.png";
+import iSplash from "../img/portfolio/amg-lounges-splash.jpg";
 
 function PortfolioAMGLoungesPage() {
     return (
@@ -21,7 +22,8 @@ function PortfolioAMGLoungesPage() {
                     Dynamic Social Media Campaign for the 5th Annual AMG Lounges SoCal x Norcal Meet; Weekly Social Media Content Management for Instagram + Facebook.
                 </PortfolioHeader>
                 <PortfolioBody>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium assumenda blanditiis consequatur deleniti deserunt, eligendi eum facilis fuga fugiat hic illo in nostrum quam quia reiciendis totam unde veniam vitae?
+                    <h3 className="italic"><a href="http://www.amgsocallounge.com/" target="_blank">amgsocallounge.com</a></h3>
+                    <a href="http://www.amgsocallounge.com/" target="_blank"><img alt="AMG SoCal Lounge website" src={iSplash} /></a>
                 </PortfolioBody>
                     {/*<h3>Overview</h3>
                     <div>

@@ -6,6 +6,10 @@ import PortfolioTitle from "../components/portfolio/Title";
 import PortfolioBody from "../components/portfolio/Body";
 import Footer from "../components/Footer";
 import iHeader from "../img/portfolio/karma-tequila-header.png";
+import iWebsiteProcess from "../img/portfolio/karma-tequila-website-process.jpg";
+import iFacebookAbout from "../img/portfolio/karma-tequila-facebook-about.jpg";
+import iTagline from "../img/portfolio/body-vibes-tagline.jpg";
+import iElevatorPitch from "../img/portfolio/body-vibes-elevator_pitch.jpg";
 
 function PortfolioKarmaTequilaPage() {
     return (
@@ -21,7 +25,12 @@ function PortfolioKarmaTequilaPage() {
                     Brand Profile, PROCESS Web Page.
                 </PortfolioHeader>
                 <PortfolioBody>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi cumque eos nobis ratione voluptates. Architecto consectetur cum dolor facere illo in minus, nemo nisi nulla pariatur ratione tempora vel voluptatibus.
+                    <h3 className="italic">Website Process page</h3>
+                    <img alt="Karma Tequila website Process page" src={iWebsiteProcess} />
+                    <br/>
+                    <br/>
+                    <h3 className="italic">Facebook About page</h3>
+                    <img alt="Karma Tequila Facebook About page" src={iFacebookAbout} />
                 </PortfolioBody>
             </PortfolioWrapper>
 {/*
