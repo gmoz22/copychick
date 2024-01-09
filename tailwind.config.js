@@ -26,6 +26,7 @@ module.exports = {
         arimo: ['Arimo']
       },
       borderWidth: {
+        8.5: '12px',
         12: '24px',
       },
       fontSize: {
