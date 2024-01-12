@@ -60,7 +60,7 @@ function HomePage() {
                         COPY + BRAND STRATEGY for B2B, B2C and People
                     </div>
                     {/*<div className="h-screen w-full hidden md:block md:w-1/2 pt-28 bg-cover bg-home-splash-copy-brand-strategy-2 bg-center"> &nbsp; </div>*/}
-                    <div className="h-screen hidden flex md:block md:w-2/5 pt-28 bg-primary text-white font-bold border-l-8.5 border-white">
+                    <div className="h-screen hidden flex md:block md:w-2/5 pt-28 bg-primary text-white font-bold">
                         <div className="mt-48 ml-12">
                             <span className="xl:text-7xl lg:text-5xl text-3xl">
                                 COPY +<br/>
@@ -69,7 +69,7 @@ function HomePage() {
                             </span>
                             <br/>
                             <br/>
-                            <span className="xl:text-4xl lg:text-3xl text-xl">for B2B, B2C and People</span>
+                            <span className="xl:text-4xl lg:text-3xl text-xl text-black">for B2B, B2C and People</span>
                         </div>
                     </div>
                     <div className="h-screen flex md:w-3/5 w-full">
@@ -88,22 +88,18 @@ function HomePage() {
                         <div className="w-full 2xl:h-[500px] xl:h-[420px] md:h-[380px] h-[280px] bg-home-oprah-quote bg-center bg-cover"></div>
                         <div className="w-4/5 h-auto m-auto">
                             <div className="lg:text-3xl md:text-2xl text-xl mt-12">
-                                Of course not, Venerable Queen of the Planet Oprah.
+                                Copychick clients are savvy master delegators who can spot a win-win from outer space.<br/>They know entrusting their copy & branding to a pro is a time-saving, stress-busting and value-building grand slam for success!
                             </div>
-                            <div className="lg:text-2xl md:text-xl text-lg mt-6">
-                                Copychick clients are savvy master delegators who can spot a win-win from outer space. They know entrusting their copy & branding to a pro is a time-saving, stress-busting grand slam for success!
-                            </div>
-                            <div className="lg:grid lg:grid-cols-2 lg:gap-16 text-black md:text-lg text-md">
-                                <div>
-                                    <div className="lg:mt-12 mt-8 font-bold">How so, you inquire?</div>
-                                    <br/>
-                                    <div>Us writing pros have spent years and thousands on keyboards and coffee perfecting our craft. Some of us even boast magazine bylines and Master of English degrees (wink-wink). We're experts at distilling long-winded jargon into provocative calls to action. Masters of transforming flickers of an idea into moving manifestos that persuade and sell. We're strategy ninjas, visual storytellers and human dictionaries bursting at the seams with BIG ideas on how to turn the messiest messaging into the viral stuff of booming brands.</div>
-                                </div>
-                                <div>
-                                    <div className="lg:mt-12 mt-8 font-bold">Delegating your project to a results-driven, copy virtuoso is a smart investment that will help take your brand to the next level.</div>
-                                    <br/>
-                                    <div>You bring the brief and Copychick brings the value! If you're ready to reach your full potential – duh, of course you are -- let's get to work!</div>
-                                </div>
+                            <br/>
+                            {/*<div className="lg:grid lg:grid-cols-3 lg:gap-16 text-black md:text-lg text-md">*/}
+                            <div className="text-black md:text-lg text-md">
+                                <div>Writing pros spend years and thousands on keyboards and coffee in hot pursuit of perfecting our craft. Some of us even cut our teeth on Master of English degrees, magazine bylines, and working in-house with international PR agencies. Wink-wink.</div>
+                                <br/>
+                                <div>Copywriters are experts at distilling long-winded jargon into provocative calls to action. Masters of transforming flickers of an idea into moving manifestos that persuade and sell. We're strategy ninjas, visual storytellers and human dictionaries bursting at the seams with BIG ideas on how to turn the messiest messaging into the viral stuff of booming brands.</div>
+                                <br/>
+                                <div>The bottom line?</div>
+                                <br/>
+                                <div className="font-bold">Delegating your project to a results-driven, copy virtuoso is a seriously smart investment. Sparkling, strategic copy brings value that takes your business to the next level!</div>
                             </div>
                         </div>
                     </div>
