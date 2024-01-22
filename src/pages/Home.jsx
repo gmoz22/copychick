@@ -73,10 +73,10 @@ function HomePage() {
                         </div>
                     </div>
                     <div className="h-screen flex md:w-3/5 w-full">
-                        <div className="h-1/2 md:mt-32 w-full text-[1.7em] text-gray-600 font-light">
+                        <div className="h-1/2 md:mt-32 w-full md:text-2xl text-md text-gray-600 font-light">
                             <img className="mb-auto" src={ImgJenProfile} />
-                            <div className="leading-8 m-10">I craft premium copy and brand strategies that deep dive into how people, products and brands bring meaning and value to the world. Collab with me for vibrant storytelling that boosts your sales, reputation and following while spotlighting your core message and vision.</div>
-                            <div className="leading-8 m-10 font-bold">Let's get to work!</div>
+                            <div className="md:leading-8 md:m-10 m-4">I craft premium copy and brand strategies that deep dive into how people, products and brands bring meaning and value to the world. Collab with me for vibrant storytelling that boosts your sales, reputation and following while spotlighting your core message and vision.</div>
+                            <div className="md:leading-8 md:m-10 m-4 font-bold">Let's get to work!</div>
                         </div>
                     </div>
                 </div>
@@ -85,14 +85,14 @@ function HomePage() {
                 <div className="h-screen flex">
                     <div className="h-screen w-full">
                         {/*<img src={ImgOprahQuote} className="w-full" />*/}
-                        <div className="w-full 2xl:h-[500px] xl:h-[420px] md:h-[380px] h-[280px] bg-home-oprah-quote bg-center bg-cover"></div>
+                        <div className="w-full 2xl:h-[500px] xl:h-[420px] md:h-[380px] h-[200px] bg-home-oprah-quote bg-center bg-cover"></div>
                         <div className="w-4/5 h-auto m-auto">
-                            <div className="lg:text-3xl md:text-2xl text-xl mt-12">
+                            <div className="lg:text-3xl md:text-2xl text-md mt-12">
                                 Copychick clients are savvy master delegators who can spot a win-win from outer space.<br/>They know entrusting their copy & branding to a pro is a time-saving, stress-busting and value-building grand slam for success!
                             </div>
                             <br/>
                             {/*<div className="lg:grid lg:grid-cols-3 lg:gap-16 text-black md:text-lg text-md">*/}
-                            <div className="text-black md:text-lg text-md">
+                            <div className="text-black md:text-lg text-sm">
                                 <div>Writing pros spend years and thousands on keyboards and coffee in hot pursuit of perfecting our craft. Some of us even cut our teeth on Master of English degrees, magazine bylines, and working in-house with international PR agencies. Wink-wink.</div>
                                 <br/>
                                 <div>Copywriters are experts at distilling long-winded jargon into provocative calls to action. Masters of transforming flickers of an idea into moving manifestos that persuade and sell. We're strategy ninjas, visual storytellers and human dictionaries bursting at the seams with BIG ideas on how to turn the messiest messaging into the viral stuff of booming brands.</div>
@@ -107,17 +107,23 @@ function HomePage() {
 
                 {/* SECTION 3 */}
                 <div className="h-screen flex">
-                    <div className="h-screen w-4/5 m-auto flex-row">
-                        <div className="mt-36 h-[280px] w-full bg-home-splash-hire-copychick bg-[position:50%_28%] bg-contain"></div>
-                        <div className="h-auto p-4 bg-primary text-white">
-                            <ul className="md:p-12 p-4 list-outside ml-6 list-disc lg:text-lg md:text-md text-sm leading-loose">
-                                <li><span className="font-bold">INCREASE YOUR BOTTOM LINE</span><span className="font-semibold"> with clean, compelling copy that connects with consumers.</span> <span className="italic">Ca-ching!</span><br/>&nbsp;</li>
-                                <li><span className="font-bold">SELL, LEAD, EDUCATE, and CONVERT</span><span className="font-semibold"> with targeted marketing that speaks directly to you client avatar and buyer persona.</span> <span className="italic">I'll have what she's having, please!</span><br/>&nbsp;</li>
-                                <li><span className="font-bold">FREE UP TIME</span><span className="font-semibold"> for the people you love and the things that really matter.</span> <span className="italic">Hello friends and family + Netflix and chill!</span><br/>&nbsp;</li>
-                                <li><span className="font-bold">ENHANCE YOUR UI + UX IMPACT</span><span className="font-semibold"> with brilliant copy visually tailored to your website design.</span> <span className="italic">Big up times on site!</span><br/>&nbsp;</li>
-                                <li><span className="font-bold">KISS STRESS and TIME WASTED GOODBYE</span><span className="font-semibold"> without the headache of DIY copywriting and branding.</span> <span className="italic">Ain't no one got time for that!</span><br/>&nbsp;</li>
-                                <li><span className="font-bold">BOSS UP</span><span className="font-semibold"> with a pro who's go the strategy, vocab and insight to develop you brightest ideas into powerful messaging that motivates behavior.</span> <span className="italic">Major flex!</span><br/>&nbsp;</li>
-                                <li><span className="font-bold">OWN YOUR MARKETPLACE</span><span className="font-semibold"> with incisive brand positioning and clever calls to action that spotlight you from the competition.</span> <span className="italic">Slay!</span><br/>&nbsp;</li>
+                    <div className="h-screen w-full flex">
+                        <div className="h-full md:w-1/2 md:block hidden flex bg-home-splash-hire-copychick bg-center bg-cover"></div>
+                        <div className="h-full md:w-1/2 w-full flex-1 text-black">
+                            <div className="md:hidden block mt-48 py-6 h-auto w-full bg-gold text-white text-2xl text-center font-bold uppercase">
+                                Hire Copychick
+                            </div>
+                            <div className="md:pt-48 pt-10 pb-4 xl:text-4xl lg:text-3xl text-2xl text-center font-bodoni">
+                                Delegate & De-Stress for Success!
+                            </div>
+                            <ul className="md:p-12 p-4 list-outside ml-6 list-disc lg:text-lg md:text-md text-sm md:leading-loose">
+                                <li><span className="text-primary font-bold">INCREASE YOUR BOTTOM LINE</span><span className="font-semibold"> with compelling copy that connects with consumers.</span><br/>&nbsp;</li>
+                                <li><span className="text-primary font-bold">SELL, EDUCATE, and CONVERT</span><span className="font-semibold"> with sharp brand strategies that motivate your target audience.</span><br/>&nbsp;</li>
+                                <li><span className="text-primary font-bold">ENHANCE YOUR UI + UX IMPACT</span><span className="font-semibold"> with glowing copy that’s visually tailored to your website design.</span> <br/>&nbsp;</li>
+                                <li><span className="text-primary font-bold">OWN YOUR MARKETPLACE</span><span className="font-semibold"> with incisive brand positioning and clever calls to action that steal the spotlight.</span><br/>&nbsp;</li>
+                                <li><span className="text-primary font-bold">WOW + INSPIRE</span><span className="font-semibold"> by partnering with a pro who’s got the words, strategy and insight to develop your brightest ideas into powerful messaging.</span><br/>&nbsp;</li>
+                                <li><span className="text-primary font-bold">FREE YOUR TIME</span><span className="font-semibold"> for the people and things you love when you delegate your project to an expert.</span><br/>&nbsp;</li>
+                                <li><span className="text-primary font-bold">KISS STRESS and TIME WASTED GOODBYE</span><span className="font-semibold"> without agonizing over another DIY project.</span><br/>&nbsp;</li>
                             </ul>
                         </div>
                     </div>

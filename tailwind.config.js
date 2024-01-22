@@ -18,12 +18,15 @@ module.exports = {
         tertiary: '#DB2777', // text-pink-600
         lightest: '#FFB3DA',
         white: '#FFFFFF',
+        lightyellow: '#FCE38A',
+        gold: '#F4BF2A',
         black: '#000000',
         blue_home_i_do_copy: '#63E1E5FF',
       },
       fontFamily: {
         sans: ['Inter var', ...defaultTheme.fontFamily.sans],
-        arimo: ['Arimo']
+        arimo: ['Arimo', ...defaultTheme.fontFamily.sans],
+        bodoni: ['Bodoni Moda', ...defaultTheme.fontFamily.serif],
       },
       borderWidth: {
         8.5: '12px',
