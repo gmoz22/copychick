@@ -25,7 +25,6 @@ function PortfolioMindBodySpotPage() {
                     Brand Positioning, Website Copy.
                 </PortfolioHeader>
                 <PortfolioBody>
-                    <h3 className="italic">Brand Positioning</h3>
                     <img alt="Mind/Body Spot Brand - Page 1" src={iBrandP1} />
                     <br/>
                     <br/>
@@ -48,7 +47,7 @@ function PortfolioMindBodySpotPage() {
                     </div>
                     <br/>
                     <p>
-                        Mind/Body Spot entrepreneur and freshly-certified health coach Ana Levine hired me to craft web copy for her fledgling health coaching and consultation business. Being new to the field made it imperative for Ana’s web copy to strike the authoritative tone of an industry expert. The copy also needed to be empathetic to the complex health issues of the website’s target audience, convey Ana’s authentic, no-nonsense voice and feature plentiful calls to action.
+                        Mind/Body Spot entrepreneur and freshly-certified health coach Ana Levine hired me to craft web copy for her fledgling health coaching and consultation business. Being new to the field made it imperative for Ana's web copy to strike the authoritative tone of an industry expert. The copy also needed to be empathetic to the complex health issues of the website's target audience, convey Ana's authentic, no-nonsense voice and feature plentiful calls to action.
                     </p>
                     <br/>
                     <h3>Deliverables</h3>
@@ -59,11 +58,11 @@ function PortfolioMindBodySpotPage() {
                     <br/>
                     <h3>Solution</h3>
                     <p>
-                        To undertake brand positioning, I conducted targeted research of Ana’s competitors and target audience, as well as the larger functional medicine and health coaching industries. Whereas a great deal of health coaches run a solo practice, Ana was in the process of hiring employees, envisioned growing a large company in the future, and already had a burgeoning clientele. This information inspired me to position Mind/Body Spot as a health and wellness collective with Ana as its leader. The main benefits of this positioning were minimized attention to Ana’s new certification, and cementing her position as an industry expert.
+                        To undertake brand positioning, I conducted targeted research of Ana's competitors and target audience, as well as the larger functional medicine and health coaching industries. Whereas a great deal of health coaches run a solo practice, Ana was in the process of hiring employees, envisioned growing a large company in the future, and already had a burgeoning clientele. This information inspired me to position Mind/Body Spot as a health and wellness collective with Ana as its leader. The main benefits of this positioning were minimized attention to Ana's new certification, and cementing her position as an industry expert.
                     </p>
                     <br/>
                     <p>
-                        I approached the web copy with the mindset of appealing to an audience in need of nurturing and self-care. I crafted SEO web copy in a relatable, first-person voice that is peppered with Ana’s personal, health journey anecdotes. This lends the copy and calls to action an authentic and empathetic tone that draws in visitors and sparks them to take action.
+                        I approached the web copy with the mindset of appealing to an audience in need of nurturing and self-care. I crafted SEO web copy in a relatable, first-person voice that is peppered with Ana's personal, health journey anecdotes. This lends the copy and calls to action an authentic and empathetic tone that draws in visitors and sparks them to take action.
                     </p>*/}
             </PortfolioWrapper>
             <Footer />

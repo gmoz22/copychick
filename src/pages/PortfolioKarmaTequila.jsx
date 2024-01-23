@@ -25,11 +25,9 @@ function PortfolioKarmaTequilaPage() {
                     Brand Profile, PROCESS Web Page.
                 </PortfolioHeader>
                 <PortfolioBody>
-                    <h3 className="italic">Website Process page</h3>
                     <img alt="Karma Tequila website Process page" src={iWebsiteProcess} />
                     <br/>
                     <br/>
-                    <h3 className="italic">Facebook About page</h3>
                     <img alt="Karma Tequila Facebook About page" src={iFacebookAbout} />
                 </PortfolioBody>
             </PortfolioWrapper>
@@ -67,15 +65,15 @@ function PortfolioKarmaTequilaPage() {
                     <br/>
                     <h3>Solution</h3>
                     <p>
-                        I approached Karma Tequila as a sensory storytelling project. Writing in the brand’s sleek and sexy voice, I produced decadent copy heavy on visual and thirst-quenching imagery that provokes the spirit afficionado’s palate.
+                        I approached Karma Tequila as a sensory storytelling project. Writing in the brand's sleek and sexy voice, I produced decadent copy heavy on visual and thirst-quenching imagery that provokes the spirit afficionado's palate.
                     </p>
                     <br/>
                     <p>
-                        Within this sensory context, both deliverables strive to evoke a sense of time and place that is connected to the spirit-manufacturing heritage of America, and the rich tradition of tequila production in Mexico. Karma Tequila’s ABOUT profile is rooted in American heritage, from highlighting its ownership by the Semlers to prominently presenting the story of the American Oak Kentucky Bourbon barrels in which Karma Tequila is meticulously aged.
+                        Within this sensory context, both deliverables strive to evoke a sense of time and place that is connected to the spirit-manufacturing heritage of America, and the rich tradition of tequila production in Mexico. Karma Tequila's ABOUT profile is rooted in American heritage, from highlighting its ownership by the Semlers to prominently presenting the story of the American Oak Kentucky Bourbon barrels in which Karma Tequila is meticulously aged.
                     </p>
                     <br/>
                     <p>
-                        Karma Tequila’s PROCESS profile is an atmospheric journey into the highlands of Jalisco, Mexico. Here is where the agave plants are grown, and where decades-old, hands-on traditions are employed in developing premium, small-batch tequila. From Kentucky to Jalisco, heritage is the unifying factor that cements Karma Tequila’s pride of place in the realm of luxury tequila.
+                        Karma Tequila's PROCESS profile is an atmospheric journey into the highlands of Jalisco, Mexico. Here is where the agave plants are grown, and where decades-old, hands-on traditions are employed in developing premium, small-batch tequila. From Kentucky to Jalisco, heritage is the unifying factor that cements Karma Tequila's pride of place in the realm of luxury tequila.
                     </p>
                 </PortfolioBody>
             </PortfolioWrapper>*/}

@@ -22,7 +22,6 @@ function PortfolioBravoPage() {
                     Artist, Product and EP Profile.
                 </PortfolioHeader>
                 <PortfolioBody>
-                    <h3 className="italic">Profile</h3>
                     <img alt="Bravo Profile" src={iProfile} />
                 </PortfolioBody>
                     {/*<br/>
@@ -43,7 +42,7 @@ function PortfolioBravoPage() {
                     <br/>
                     <h3>Solution</h3>
                     <p>
-                        Inspired by the artist profiles routinely found in hip-hop industry magazines, I crafted a coming out piece for Bravo that is equal parts press release and professional bio. With hip hop culture steeped in bragging rights and shout outs to the cities its artists rep, the first half of the piece immediately established Bravo as an inheritor of the West Coast rap lineage. I propped up this idea by running down Bravo’s collabs with famous rappers, and linked his talent to the soul-soaked DNA he shares with his uncle, the legendary R&B singer Lou Rawls.
+                        Inspired by the artist profiles routinely found in hip-hop industry magazines, I crafted a coming out piece for Bravo that is equal parts press release and professional bio. With hip hop culture steeped in bragging rights and shout outs to the cities its artists rep, the first half of the piece immediately established Bravo as an inheritor of the West Coast rap lineage. I propped up this idea by running down Bravo's collabs with famous rappers, and linked his talent to the soul-soaked DNA he shares with his uncle, the legendary R&B singer Lou Rawls.
                     </p>
                     <br/>
                     <p>

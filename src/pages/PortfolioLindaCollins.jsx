@@ -22,7 +22,6 @@ function PortfolioLindaCollinsPage() {
                     Professional Bio.
                 </PortfolioHeader>
                 <PortfolioBody>
-                    <h3 className="italic">Visonary Women Website bio</h3>
                     <img alt="Visionary Women website screenshot" src={iVisionaryWomenScreenshot} />
                 </PortfolioBody>
             </PortfolioWrapper>
@@ -42,7 +41,7 @@ function PortfolioLindaCollinsPage() {
                     </div>
                     <br/>
                     <p>
-                        Because there are so many facets to Linda’s life and career, a one-size-fits-all approach to her bio doesn’t work. Her bios must be tailored to the organization they represent. In this case, Linda  required a philanthropic profile for Visionary Women, a Los Angeles-based nonprofit focused on funding “high impact initiatives for women and girls.” Linda being a high-level Leadership Member meant bringing the panache was a must, as her bio would feature prominently on the Visionary Women website alongside a host of bios from fellow influencers.
+                        Because there are so many facets to Linda's life and career, a one-size-fits-all approach to her bio doesn't work. Her bios must be tailored to the organization they represent. In this case, Linda  required a philanthropic profile for Visionary Women, a Los Angeles-based nonprofit focused on funding “high impact initiatives for women and girls.” Linda being a high-level Leadership Member meant bringing the panache was a must, as her bio would feature prominently on the Visionary Women website alongside a host of bios from fellow influencers.
                     </p>
                     <br/>
                     <h3>Deliverables</h3>
@@ -52,7 +51,7 @@ function PortfolioLindaCollinsPage() {
                     <br/>
                     <h3>Solution</h3>
                     <p>
-                        As Linda’s personal copywriter for years, I know how to craft sharp bios spotlighting her industry-specific achievements. For Visionary Women, I crafted a 500-word profile in a warm and concise voice that focuses on her charitable and humanitarian endeavors. Each of the four paragraphs groups together meaningful aspects of Linda’s philanthropy work, including establishing her own nonprofit, producing documentaries that promote awareness of important causes, recognition by two U.S. Presidents, and what it means to Linda to be part of Visionary Women.
+                        As Linda's personal copywriter for years, I know how to craft sharp bios spotlighting her industry-specific achievements. For Visionary Women, I crafted a 500-word profile in a warm and concise voice that focuses on her charitable and humanitarian endeavors. Each of the four paragraphs groups together meaningful aspects of Linda's philanthropy work, including establishing her own nonprofit, producing documentaries that promote awareness of important causes, recognition by two U.S. Presidents, and what it means to Linda to be part of Visionary Women.
                     </p>
                     <br/>
                     <p>

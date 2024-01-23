@@ -23,7 +23,6 @@ function PortfolioElliotMintzPage() {
                     Two Professional Bios.
                 </PortfolioHeader>
                 <PortfolioBody>
-                    <h3 className="italic">Bio</h3>
                     <img alt="Elliot Mintz Bio" src={iBio} />
                 </PortfolioBody>
             </PortfolioWrapper>

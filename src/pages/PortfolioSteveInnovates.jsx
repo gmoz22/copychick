@@ -24,7 +24,7 @@ function PortfolioSteveInnovatesPage() {
                     <br/>
                     <h3>Overview</h3>
                     <div>
-                        Steve is a 20-year tech industry veteran and entrepreneur who’s developed innovative digital products for some of the world’s biggest brands, including Audi, Marvel, Mercedes-Benz, Charter Telecommunications, Sega, Heineken, Nissan, Mastercard, Elle, and many more.
+                        Steve is a 20-year tech industry veteran and entrepreneur who's developed innovative digital products for some of the world's biggest brands, including Audi, Marvel, Mercedes-Benz, Charter Telecommunications, Sega, Heineken, Nissan, Mastercard, Elle, and many more.
                     </div>
                     <br/>
                     <h3>Challenge</h3>
@@ -34,7 +34,7 @@ function PortfolioSteveInnovatesPage() {
                     <br/>
                     <h3>Solution</h3>
                     <p>
-                        Steve came to me to write clean, uber-minimalist web copy for his website that mimicked the ethos of his clean, uber-minimalist development. I also collaborated with him on the site’s design.
+                        Steve came to me to write clean, uber-minimalist web copy for his website that mimicked the ethos of his clean, uber-minimalist development. I also collaborated with him on the site's design.
                     </p>
                 </PortfolioBody>
             </PortfolioWrapper>

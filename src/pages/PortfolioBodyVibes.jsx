@@ -23,11 +23,9 @@ function PortfolioBodyVibesPage() {
                     Tagline, Elevator Pitch, ABOUT Page, Marketing Collateral.
                 </PortfolioHeader>
                 <PortfolioBody>
-                    <h3 className="italic">Tagline</h3>
                     <img alt="Body Vibes tagline" src={iTagline} />
                     <br/>
                     <br/>
-                    <h3 className="italic">Elevator Pitch</h3>
                     <img alt="Body Vibes elevator pitch" src={iElevatorPitch} />
                 </PortfolioBody>
             </PortfolioWrapper>
@@ -37,7 +35,7 @@ function PortfolioBodyVibesPage() {
                     <br/>
                     <h3>Overview</h3>
                     <div>
-                        Body Vibes is a line of wearable “smart” stickers that claim to stabilize mood by balancing the body’s natural energy frequencies.
+                        Body Vibes is a line of wearable “smart” stickers that claim to stabilize mood by balancing the body's natural energy frequencies.
                     </div>
                     <br/>
                     <h3>Challenge</h3>
@@ -46,7 +44,7 @@ function PortfolioBodyVibesPage() {
                     </div>
                     <br/>
                     <p>
-                        The founder of Body Vibes approached me with a curveball. The product, which targeted the millennial health-and-wellness set, owed its mood-balancing capabilities to an embedded material produced by Raytheon Technologies, a leading aerospace and defense manufacturer, and the world’s largest producer of guided missiles. Yikes!
+                        The founder of Body Vibes approached me with a curveball. The product, which targeted the millennial health-and-wellness set, owed its mood-balancing capabilities to an embedded material produced by Raytheon Technologies, a leading aerospace and defense manufacturer, and the world's largest producer of guided missiles. Yikes!
                     </p>
                     <br/>
                     <p>
@@ -66,7 +64,7 @@ function PortfolioBodyVibesPage() {
                     </p>
                     <br/>
                     <p>
-                        Research helped me to position Body Vibes as a pioneering lifestyle product within the holistic health and wellness space because it claimed to be a chemical-free mood enhancer. With this angle driving my creative process, I authored an ABOUT page optimized with health and wellness-related, SEO-friendly keywords.  The ABOUT provided a sassy and simplified explanation of how the stickers stabilized mood, explaining that the material used to make them comes pre-programmed with bio-frequencies that identify which of the body’s natural energy frequencies is depleted, <span className="text-primary">and “downloading” the missing bio-frequencies</span>. I gave Raytheon a shout-out for inventing the technology, but eschewed mentioning their involvement with the defense industry in favor of mentioning that NASA is their client.
+                        Research helped me to position Body Vibes as a pioneering lifestyle product within the holistic health and wellness space because it claimed to be a chemical-free mood enhancer. With this angle driving my creative process, I authored an ABOUT page optimized with health and wellness-related, SEO-friendly keywords.  The ABOUT provided a sassy and simplified explanation of how the stickers stabilized mood, explaining that the material used to make them comes pre-programmed with bio-frequencies that identify which of the body's natural energy frequencies is depleted, <span className="text-primary">and “downloading” the missing bio-frequencies</span>. I gave Raytheon a shout-out for inventing the technology, but eschewed mentioning their involvement with the defense industry in favor of mentioning that NASA is their client.
                     </p>
                 </PortfolioBody>*/}
             <Footer />

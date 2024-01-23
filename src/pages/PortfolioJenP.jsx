@@ -26,7 +26,6 @@ function PortfolioJenPPage() {
                     Brand Strategy – Messaging, Vision, Values, Tagline, Audience Persona, Voice Guidelines, Brand Story, Tagline, and more.
                 </PortfolioHeader>
                 <PortfolioBody>
-                    <h3 className="italic">Brand Strategy - Brand Story</h3>
                     <img alt="Jen P Brand Strategy - Page 1" src={iBrandP1} />
                     <br/>
                     <br/>

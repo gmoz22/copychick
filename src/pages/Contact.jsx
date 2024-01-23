@@ -68,57 +68,56 @@ function ContactPage() {
     return (
         <div>
             <Header/>
-            <div className="bg-primary mt-28">
-                <Body className="bg-primary mt-28 pt-28">
-                    <div className="w-full bg-white relative sm:p-24 p-8">
-                        <div className="z-0 absolute sm:top-6 sm:left-8 top-2 left-3 sm:text-12xl sm:leading-[144px] text-6xl leading-2 font-extrabold">
-                            LE<br/>
-                            T'S
+            <div className="mt-8">
+                <Body className="mt-8 pt-8">
+                    {/*<div className="z-0 text-primary absolute sm:top-48 sm:left-8 top-2 left-3 sm:text-12xl sm:leading-[144px] text-6xl leading-2 font-extrabold">
+                        LE<br/>
+                        T'S<br/>
                         </div>
-                        <div className="z-0 absolute sm:bottom-6 sm:right-8 bottom-2 right-3 sm:text-12xl sm:leading-[144px] text-6xl leading-2 font-extrabold">
-                            CH<br/>
-                            AT
-                        </div>
-                        <div className="w-full bg-primary sm:p-28 p-8 text-white sm:text-lg">
+                        <div className="z-0 text-primary absolute sm:top-72 sm:left-8 top-42 left-3 sm:text-12xl sm:leading-[144px] text-6xl leading-2 font-extrabold">
+                        CH<br/>
+                        AT
+                    </div>*/}
+                        <div className="w-full sm:p-28 sm:pb-12 p-8 text-black sm:text-lg text-md">
+                            <div className="w-full relative sm:p-8 p-8">
                             <div className="z-10 relative w-full">
-                                <div className="mt-6 sm:text-4xl text-md font-bold">Schedule a FREE CONSULTATION!</div>
+                                <div className="sm:text-7xl text-lg font-bold text-center text-primary">LET'S CHAT!</div>
                                 <br/>
-                                <div>Let’s chat about how my premium copy and branding solutions will help rock your ROI and boost your reputation.</div>
                                 <br/>
-                                <div className="font-bold sm:text-xl">During our scheduled call:</div>
-                                &bull; You share your creative needs.<br/>
-                                &bull;&bull; I drop some fresh ideas.<br/>
-                                &bull;&bull;&bull; We determine if it’s a good fit.<br/>
+                                <div>Schedule a FREE consultation to discuss how my premium copy and branding solutions can rock your ROI and boost your reputation.</div>
                                 <br/>
-                                <div className="font-bold sm:text-xl">If we decide to proceed, I’ll shoot you a competitively-priced quote and contract. You sign off and we roll!</div>
+                                <div className="sm:text-xl">During our scheduled call:</div>
+                                <span className="text-primary">&bull;</span> You share your creative needs.<br/>
+                                <span className="text-primary">&bull;&bull;</span> I drop some fresh ideas.<br/>
+                                <span className="text-primary">&bull;&bull;&bull;</span> We determine if it's a good fit.<br/>
                                 <br/>
-                                <div className="font-bold sm:text-xl">If things don’t jive, there’s no obligation and no worries.</div>
+                                <div className="sm:text-xl">If we decide to proceed, I'll shoot you a competitively-priced quote and contract, and once you sign off, we roll! If things don't jive, there's no obligation and no worries.</div>
                                 <br/>
-                                <div>Get started by <span onClick={() => goToForm()} className="font-bold visited:text-primary_50 cursor-pointer border-b-2 border-dashed border-white hover:border-solid visited:text-white">filling out the short form below</span>. I’ll be in touch ASAP!</div>
+                                <div>Get started by <span onClick={() => goToForm()} className="font-bold text-primary visited:text-primary_50 cursor-pointer border-b-2 border-dashed border-white hover:border-solid visited:text-white">filling out the short form below</span>. I'll be in touch with you ASAP.</div>
                                 <br/>
-                                <div className="font-bold sm:text-2xl">Hiring a talented copy pro doesn’t get any more seamless! Book baby, book!</div>
+                                <div className="font-bold sm:text-2xl">Hiring a talented copy pro doesn't get any more seamless! Book baby, book!</div>
                             </div>
+                            <a id="form"></a>
                         </div>
-                        <a id="form"></a>
-                    </div>
-                    <div className="w-full mt-28 text-center">
-                        <form className="caret-primary" id="contact_form" name="contact" method="POST" onSubmit={handleForm}>
-                            <input className="rounded-3xl p-4 text-center text-gray-700 w-[420px] h-[48px] font-bold text-2xl p-2 outline-none" type="text" name="first_name" onChange={(e) => setFormData({...formData, first_name: e.target.value})} placeholder="First Name" /><br/>
-                            <br/>
-                            <input className="rounded-3xl p-4 text-center text-gray-700 w-[420px] h-[48px] font-bold text-2xl p-2 outline-none" type="text" name="last_name" onChange={(e) => setFormData({...formData, last_name: e.target.value})} placeholder="Last Name" /><br/>
-                            <br/>
-                            <input className="rounded-3xl p-4 text-center text-gray-700 w-[420px] h-[48px] font-bold text-2xl p-2 outline-none" type="text" name="email" onChange={(e) => setFormData({...formData, email: e.target.value})} placeholder="Email Address" /><br/>
-                            <br/>
-                            <input className="rounded-3xl p-4 text-gray-700 w-[420px] h-[48px] font-bold text-xl p-2 outline-none" type="text" name="subject" onChange={(e) => setFormData({...formData, subject: e.target.value})} placeholder="Subject" /><br/>
-                            <br/>
-                            <textarea className="rounded-3xl p-4 text-gray-700 w-[420px] h-[260px] font-bold text-lg p-2 outline-none" name="message" onChange={(e) => setFormData({...formData, message: e.target.value})} placeholder="Message..." /><br/>
-                            <br/>
-                            <button disabled={formButtonDisabled} className="disabled:bg-green-500 disabled:cursor-not-allowed bg-black text-white text-xl font-bold px-8 py-3 rounded-full drop-shadow-2xl active:text-primary transition-all duration-300 active:drop-shadow-none" type="submit" value="Send it!" name="submit">{formButtonText}</button><br/>
-                            <br/>
-                            <div className="w-full text-xl font-bold">{formMessage}</div>
-                        </form>
                     </div>
                 </Body>
+                <div className="w-full text-center bg-primary">
+                    <form className="caret-primary pt-20" id="contact_form" name="contact" method="POST" onSubmit={handleForm}>
+                        <input className="p-4 text-center text-gray-700 w-[420px] h-[48px] font-bold text-2xl p-2 outline-none border-solid border-2 border-primary" type="text" name="first_name" onChange={(e) => setFormData({...formData, first_name: e.target.value})} placeholder="First Name" /><br/>
+                        <br/>
+                        <input className="p-4 text-center text-gray-700 w-[420px] h-[48px] font-bold text-2xl p-2 outline-none border-solid border-2 border-primary" type="text" name="last_name" onChange={(e) => setFormData({...formData, last_name: e.target.value})} placeholder="Last Name" /><br/>
+                        <br/>
+                        <input className="p-4 text-center text-gray-700 w-[420px] h-[48px] font-bold text-2xl p-2 outline-none border-solid border-2 border-primary" type="text" name="email" onChange={(e) => setFormData({...formData, email: e.target.value})} placeholder="Email Address" /><br/>
+                        <br/>
+                        <input className="p-4 text-gray-700 w-[420px] h-[48px] font-bold text-xl p-2 outline-none border-solid border-2 border-primary" type="text" name="subject" onChange={(e) => setFormData({...formData, subject: e.target.value})} placeholder="Subject" /><br/>
+                        <br/>
+                        <textarea className="p-4 text-gray-700 w-[420px] h-[260px] font-bold text-lg p-2 outline-none border-solid border-2 border-primary" name="message" onChange={(e) => setFormData({...formData, message: e.target.value})} placeholder="Message..." /><br/>
+                        <br/>
+                        <button disabled={formButtonDisabled} className="disabled:bg-green-500 disabled:cursor-not-allowed bg-black text-white text-xl font-bold px-8 py-3 drop-shadow-2xl active:text-primary transition-all duration-300 active:drop-shadow-none border-solid border-2 border-primary" type="submit" value="Send it!" name="submit">{formButtonText}</button><br/>
+                        <br/>
+                        <div className="w-full text-xl font-bold">{formMessage}</div>
+                    </form>
+                </div>
                 <Footer />
             </div>
          </div>

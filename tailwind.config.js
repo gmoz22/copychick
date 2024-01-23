@@ -27,6 +27,7 @@ module.exports = {
         sans: ['Inter var', ...defaultTheme.fontFamily.sans],
         arimo: ['Arimo', ...defaultTheme.fontFamily.sans],
         bodoni: ['Bodoni Moda', ...defaultTheme.fontFamily.serif],
+        luckiestguy: ['Luckiest Guy', ...defaultTheme.fontFamily.serif]
       },
       borderWidth: {
         8.5: '12px',
@@ -42,8 +43,10 @@ module.exports = {
       'home-splash-copy-brand-strategy': "url('img/home/splash_copy-brand-strategy.jpg')",
       'home-splash-jen-pic': "url('img/home/splash_jen-profile-pic.jpg')",
       'home-splash-hire-copychick': "url('img/home/splash_hire_copychick.jpg')",
+      'home-splash-hire-copychick-mobile': "url('img/home/splash_hire_copychick_mobile.jpg')",
       'home-splash-hire-copychick-bullets': "url('img/home/splash_hire_copychick_bullets.jpg')",
       'home-oprah-quote': "url('img/home/quote-oprah.jpg')",
+      'home-splash-superpowers': "url('img/home/splash-superpowers.jpg')",
       'home-copychick-perks': "url('img/home/copychick-perks.jpg')",
       'home-diy-hurts': "url('img/home/diy-hurts.jpg')",
     },

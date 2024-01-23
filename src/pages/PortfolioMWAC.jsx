@@ -23,7 +23,6 @@ function PortfolioMWACPage() {
                     Brand Strategy, Website Copy, 360-Marketing Campaign, Professional Bios for the Board of Directors.
                 </PortfolioHeader>
                 <PortfolioBody>
-                    <h3 className="italic">Website Copy</h3>
                     <img alt="MWAC Website Home page" src={iWebHome} />
                     <br/>
                     <br/>
@@ -61,12 +60,12 @@ function PortfolioMWACPage() {
                     </p>
                     <br/>
                     <p>
-                        What’s in name? An entire brand strategy, of course. Naming the nonprofit Models With a Cause was inspired by its founders illustrious career as an international fashion model.
+                        What's in name? An entire brand strategy, of course. Naming the nonprofit Models With a Cause was inspired by its founders illustrious career as an international fashion model.
                         Within the context of MWAC, “models” carries the connotation of what it means to be a “role model.” Supporting MWAC means becoming part of a philanthropic community who lead by the example of giving, thus inspiring others to become role models, too.
                     </p>
                     <br/>
                     <p>
-                        The “role models” ethos – “Be the role model you were born to be” is the MWAC tagline -- anchors both MWAC’s Brand Strategy and web copy. Becoming an MWAC role model who leads by example and inspires others is a call to action embedded in its mission and vision statements, roll call of values, brand story, and it is the crux of the brand’s positioning outlined in the Brand Guidelines.
+                        The “role models” ethos – “Be the role model you were born to be” is the MWAC tagline -- anchors both MWAC's Brand Strategy and web copy. Becoming an MWAC role model who leads by example and inspires others is a call to action embedded in its mission and vision statements, roll call of values, brand story, and it is the crux of the brand's positioning outlined in the Brand Guidelines.
                     </p>
                     <br/>
                     <p>
@@ -74,15 +73,15 @@ function PortfolioMWACPage() {
                     </p>
                     <br/>
                     <p>
-                        I worked closely with the graphic design and digital teams to help design MWAC’s Brand Identity, designating font selections and the correct use of photography and images. I collaborated extensively on the design of the lean, Panatone logo in fresh hues of blue so that it struck an impactful, fresh, and inviting to compliment the Brand Strategy.
+                        I worked closely with the graphic design and digital teams to help design MWAC's Brand Identity, designating font selections and the correct use of photography and images. I collaborated extensively on the design of the lean, Panatone logo in fresh hues of blue so that it struck an impactful, fresh, and inviting to compliment the Brand Strategy.
                     </p>
                     <br/>
                     <p>
-                        MWAC’s web copy is written in the highly provocative and emotional vein of charitable appeals. Because it was essential for images and calls-to-action to complement the text, I collaborated on the website graphic design and image and photography selection to heighten the UI impact.
+                        MWAC's web copy is written in the highly provocative and emotional vein of charitable appeals. Because it was essential for images and calls-to-action to complement the text, I collaborated on the website graphic design and image and photography selection to heighten the UI impact.
                     </p>
                     <br/>
                     <p>
-                        I conceptualized and launched MWAC’s first two social campaigns, both deployed on Facebook: Nominate a Role Model and Network of Inspiration. Nominate a Role Model coincided with the launch of the MWAC website. I deployed it with tri-weekly postings on Facebook for two months, soliciting users to nominate a friend or person who was championing a worthy cause. The MWAC Board of Directors would then choose a winning Role Model to receive a special donation. During these two months, forty-six people were nominated, and the MWAC Facebook Page garnered 816 new followers.
+                        I conceptualized and launched MWAC's first two social campaigns, both deployed on Facebook: Nominate a Role Model and Network of Inspiration. Nominate a Role Model coincided with the launch of the MWAC website. I deployed it with tri-weekly postings on Facebook for two months, soliciting users to nominate a friend or person who was championing a worthy cause. The MWAC Board of Directors would then choose a winning Role Model to receive a special donation. During these two months, forty-six people were nominated, and the MWAC Facebook Page garnered 816 new followers.
                     </p>
                     <br/>
                     <p>
